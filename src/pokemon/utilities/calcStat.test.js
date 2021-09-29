@@ -1,5 +1,5 @@
 import { STATS } from '../../index';
-import { calcStat } from './calcStat';
+import { calcStats, calcStat, getNatureWeighting } from './calcStat';
 
 let pokemon = {
   species: 12,
@@ -40,12 +40,38 @@ let expected = {
   [STATS.SPEED]: 129,
 };
 
-describe('calcStat should generate correct stats given known info', () => {
+describe('calcStats should generate correct stats', () => {
+  test('all', () => {
+    expect(calcStats(pokemon)).toStrictEqual(expected);
+  });
+});
 
+describe('calcStat should generate correct stats given known info', () => {
   Object.keys(expected).forEach(stat => {
     test(stat, () => {
-      expect(calcStat(pokemon, stat)).toBe(expected[stat]);
+      expect(calcStat(
+        stat,
+        pokemon.level,
+        pokemon.nature,
+        pokemon.baseStats,
+        pokemon.ivs,
+        pokemon.evs
+      ))
+        .toBe(expected[stat]);
     });
   });
+});
 
+describe('getNatureWeighting should return correct weightings based on stat given', () => {
+  test('should return 1', () => {
+    expect(getNatureWeighting(STATS.ATTACK, 'hardy')).toBe(1);
+  });
+
+  test('should return 1.1', () => {
+    expect(getNatureWeighting(STATS.ATTACK, 'lonely')).toBe(1.1);
+  });
+
+  test('should return 0.9', () => {
+    expect(getNatureWeighting(STATS.ATTACK, 'bold')).toBe(0.9);
+  });
 });
