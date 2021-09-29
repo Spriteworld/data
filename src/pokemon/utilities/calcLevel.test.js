@@ -19,11 +19,10 @@ describe('calcLevel should generate correct level given known info', () => {
     Object.keys(expected[growth]).forEach(level => {
       test(growth+' on level: '+ level, () => {
 
-        expect(calcLevel({
-          ...pokemon,
-          exp: expected[growth][level],
-          growth: GROWTH[growth.toUpperCase()]
-        })).toBe(parseInt(level));
+        expect(calcLevel(
+          GROWTH[growth.toUpperCase()],
+          expected[growth][level]
+        )).toBe(parseInt(level));
 
       });
     });
