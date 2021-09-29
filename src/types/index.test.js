@@ -19,3 +19,4 @@ Object.keys(expected).forEach(gen => {
     expect(getTypesByGen(gen)).toBe(`gen_${gen}`.TYPES);
   });
 });
+

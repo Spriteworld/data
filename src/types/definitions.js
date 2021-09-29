@@ -16,3 +16,4 @@ export const DRAGON = 'DRAGON';
 export const DARK = 'DARK';
 export const STEEL = 'STEEL';
 export const FAIRY = 'FAIRY';
+export const NONE = '???';

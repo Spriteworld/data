@@ -7,7 +7,7 @@ import * as gen_6 from './gen_6';
 // import * as gen_7 from './gen_6';
 // import * as gen_8 from './gen_6';
 
-export function getTypesByGen(gen=5) {
+export function getTypesByGen(gen=8) {
   switch(gen) {
     case 1:
       return gen_1.TYPES;

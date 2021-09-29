@@ -1,4 +1,4 @@
-import { NATURES } from './natures/natures';
+import { NATURES } from './natures/definitions';
 import { GROWTH } from './experience/growth';
 import { EXPERIENCE_TABLES } from './experience/experienceTables';
 
