@@ -1,0 +1,19 @@
+{
+  "name": "pokelink-data",
+  "version": "0.0.1",
+  "description": "Collection of Pokemon data and surrounding functionality.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "author": "xLink <xLink@cybershade.org>",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "babel-jest": "^27.2.2",
+    "ts-jest": "^27.0.5",
+    "jest": "^27.2.3"
+  },
+  "dependencies": {}
+}

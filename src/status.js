@@ -1,0 +1,8 @@
+export const STATUS = {
+  SLEEP: 'SLEEP',
+  POISON: 'POISONED',
+  BURN: 'BURNED',
+  FROZEN: 'FROZEN',
+  PARALYZE: 'PARALYZED',
+  TOXIC: 'TOXIC',
+};

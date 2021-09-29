@@ -1,0 +1,20 @@
+# System and IDE files
+Thumbs.db
+.DS_Store
+.idea
+*.suo
+*.sublime-project
+*.sublime-workspace
+
+# Vendors
+node_modules/
+
+# Build
+dist/
+/npm-debug.log
+
+stuff
+src/tileset/overworld/*/*.png
+src/tileset/battlescene/*/*.png
+src/maps/region/*
+*.tiled-session
