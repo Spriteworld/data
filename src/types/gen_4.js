@@ -18,6 +18,7 @@ export const TYPES = {
   [definitions.DRAGON]: definitions.DRAGON,
   [definitions.DARK]: definitions.DARK,
   [definitions.STEEL]: definitions.STEEL,
+  [definitions.FAIRY]: definitions.FAIRY
 };
 
 export const IMMUNITY = {
@@ -35,9 +36,10 @@ export const IMMUNITY = {
   [definitions.BUG]: [],
   [definitions.ROCK]: [],
   [definitions.GHOST]: [definitions.NORMAL],
-  [definitions.DRAGON]: [],
+  [definitions.DRAGON]: [definitions.FAIRY],
   [definitions.DARK]: [],
   [definitions.STEEL]: [],
+  [definitions.FAIRY]: []
 };
 export const WEAKNESS = {
   [definitions.NORMAL]: [definitions.ROCK, definitions.STEEL],
@@ -46,17 +48,18 @@ export const WEAKNESS = {
   [definitions.ELECTRIC]: [definitions.ELECTRIC, definitions.GRASS, definitions.DRAGON],
   [definitions.GRASS]: [definitions.FIRE, definitions.GRASS, definitions.POISON, definitions.FLYING, definitions.BUG, definitions.DRAGON, definitions.STEEL],
   [definitions.ICE]: [definitions.FIRE, definitions.WATER, definitions.ICE, definitions.STEEL],
-  [definitions.FIGHTING]: [definitions.POISON, definitions.FLYING, definitions.PSYCHIC, definitions.BUG],
+  [definitions.FIGHTING]: [definitions.POISON, definitions.FLYING, definitions.PSYCHIC, definitions.BUG, definitions.FAIRY],
   [definitions.POISON]: [definitions.POISON, definitions.GROUND, definitions.ROCK, definitions.GHOST],
   [definitions.GROUND]: [definitions.GRASS, definitions.BUG],
   [definitions.FLYING]: [definitions.ELECTRIC, definitions.ROCK, definitions.STEEL],
   [definitions.PSYCHIC]: [definitions.PSYCHIC, definitions.STEEL],
-  [definitions.BUG]: [definitions.FIRE, definitions.FIGHTING, definitions.POISON, definitions.FLYING, definitions.GHOST, definitions.STEEL],
+  [definitions.BUG]: [definitions.FIRE, definitions.FIGHTING, definitions.POISON, definitions.FLYING, definitions.GHOST, definitions.STEEL, definitions.FAIRY],
   [definitions.ROCK]: [definitions.FIGHTING, definitions.GROUND, definitions.STEEL],
   [definitions.GHOST]: [definitions.DARK],
   [definitions.DRAGON]: [definitions.STEEL],
   [definitions.DARK]: [definitions.FIGHTING, definitions.DARK, definitions.FAIR],
   [definitions.STEEL]: [definitions.FIRE, definitions.WATER, definitions.ELECTRIC, definitions.STEEL],
+  [definitions.FAIRY]: [definitions.FIRE, definitions.POISON, definitions.STEEL]
 };
 export const STRENGTH = {
   [definitions.NORMAL]: [],
@@ -66,7 +69,7 @@ export const STRENGTH = {
   [definitions.GRASS]: [definitions.WATER, definitions.GROUND, definitions.ROCK],
   [definitions.ICE]: [definitions.GRASS, definitions.GROUND, definitions.FLYING, definitions.DRAGON],
   [definitions.FIGHTING]: [definitions.NORMAL, definitions.ICE, definitions.ROCK, definitions.DARK, definitions.STEEL],
-  [definitions.POISON]: [definitions.GRASS],
+  [definitions.POISON]: [definitions.GRASS, definitions.FAIRY],
   [definitions.GROUND]: [definitions.FIRE, definitions.ELECTRIC, definitions.POISON, definitions.ROCK, definitions.STEEL],
   [definitions.FLYING]: [definitions.GRASS, definitions.FIGHTING, definitions.BUG],
   [definitions.PSYCHIC]: [definitions.FIGHTING, definitions.POISON],
@@ -75,5 +78,6 @@ export const STRENGTH = {
   [definitions.GHOST]: [definitions.PSYCHIC, definitions.GHOST],
   [definitions.DRAGON]: [definitions.DRAGON],
   [definitions.DARK]: [definitions.PSYCHIC, definitions.GHOST],
-  [definitions.STEEL]: [definitions.ICE, definitions.ROCK]
+  [definitions.STEEL]: [definitions.ICE, definitions.ROCK, definitions.FAIRY],
+  [definitions.FAIRY]: [definitions.FIGHTING, definitions.DRAGON, definitions.DARK]
 };
