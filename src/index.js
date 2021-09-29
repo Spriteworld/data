@@ -1,6 +1,8 @@
 import { COLORS } from './colors';
 import { EVOLUTION } from './evolution';
 import { FORMS } from './forms';
+import * as GAMES from './games';
+import { GENDERS } from './genders';
 import { STATS } from './stats';
 import { STATUS } from './status';
 import { WEATHER } from './weather';
@@ -12,6 +14,8 @@ export {
   COLORS,
   EVOLUTION,
   FORMS,
+  GAMES,
+  GENDERS,
   GROWTH,
   NATURES,
   STATS,
