@@ -20,6 +20,7 @@ export const TYPES = {
   [definitions.STEEL]: definitions.STEEL,
 };
 
+// [TYPE] has no effect on [TYPE(S)] (x0)
 export const IMMUNITY = {
   [definitions.NORMAL]: [definitions.GHOST],
   [definitions.FIRE]: [],
@@ -39,6 +40,8 @@ export const IMMUNITY = {
   [definitions.DARK]: [],
   [definitions.STEEL]: [],
 };
+
+// [TYPE] is weak against [TYPE(S)] (x0.5)
 export const WEAKNESS = {
   [definitions.NORMAL]: [definitions.ROCK, definitions.STEEL],
   [definitions.FIRE]: [definitions.FIRE, definitions.WATER, definitions.ROCK, definitions.DRAGON],
@@ -53,11 +56,13 @@ export const WEAKNESS = {
   [definitions.PSYCHIC]: [definitions.PSYCHIC, definitions.STEEL],
   [definitions.BUG]: [definitions.FIRE, definitions.FIGHTING, definitions.POISON, definitions.FLYING, definitions.GHOST, definitions.STEEL],
   [definitions.ROCK]: [definitions.FIGHTING, definitions.GROUND, definitions.STEEL],
-  [definitions.GHOST]: [definitions.DARK],
+  [definitions.GHOST]: [definitions.DARK, definitions.STEEL],
   [definitions.DRAGON]: [definitions.STEEL],
-  [definitions.DARK]: [definitions.FIGHTING, definitions.DARK, definitions.FAIR],
+  [definitions.DARK]: [definitions.FIGHTING, definitions.DARK, definitions.STEEL],
   [definitions.STEEL]: [definitions.FIRE, definitions.WATER, definitions.ELECTRIC, definitions.STEEL],
 };
+
+// [TYPE] is strong against [TYPE(S)] (x2)
 export const STRENGTH = {
   [definitions.NORMAL]: [],
   [definitions.FIRE]: [definitions.GRASS, definitions.ICE, definitions.BUG, definitions.STEEL],
