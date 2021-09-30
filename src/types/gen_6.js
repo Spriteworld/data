@@ -58,9 +58,9 @@ export const RESIST = {
   [definitions.PSYCHIC]: [definitions.PSYCHIC, definitions.STEEL],
   [definitions.BUG]: [definitions.FIRE, definitions.FIGHTING, definitions.POISON, definitions.FLYING, definitions.GHOST, definitions.STEEL, definitions.FAIRY],
   [definitions.ROCK]: [definitions.FIGHTING, definitions.GROUND, definitions.STEEL],
-  [definitions.GHOST]: [definitions.DARK, definitions.STEEL],
+  [definitions.GHOST]: [definitions.DARK],
   [definitions.DRAGON]: [definitions.STEEL],
-  [definitions.DARK]: [definitions.FIGHTING, definitions.DARK, definitions.STEEL, definitions.FAIRY],
+  [definitions.DARK]: [definitions.FIGHTING, definitions.DARK, definitions.FAIRY],
   [definitions.STEEL]: [definitions.FIRE, definitions.WATER, definitions.ELECTRIC, definitions.STEEL],
   [definitions.FAIRY]: [definitions.FIRE, definitions.POISON, definitions.STEEL],
 };
