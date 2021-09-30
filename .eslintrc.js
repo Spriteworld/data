@@ -6,6 +6,9 @@ module.exports = {
   extends: [
     "eslint:recommended"
   ],
+  env: {
+    "jest/globals": true
+  },
   rules: {
     "no-empty-function": "off"
   },
