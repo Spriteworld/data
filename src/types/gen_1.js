@@ -37,8 +37,8 @@ export const IMMUNITY = {
   [definitions.DRAGON]: []
 };
 
-// [TYPE] is weak against [TYPE(S)] (x0.5)
-export const WEAKNESS = {
+// [TYPE] resists [TYPE(S)] (x0.5)
+export const RESIST = {
   [definitions.NORMAL]: [definitions.ROCK],
   [definitions.FIRE]: [definitions.FIRE, definitions.WATER, definitions.ROCK, definitions.DRAGON],
   [definitions.WATER]: [definitions.WATER, definitions.GRASS, definitions.DRAGON],
