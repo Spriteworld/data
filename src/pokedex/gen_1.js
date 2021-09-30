@@ -8265,4 +8265,4 @@ export const POKEDEX = {
       }
     ]
   }
-]
+}
