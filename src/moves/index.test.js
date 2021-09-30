@@ -8,19 +8,28 @@ import * as gen_7 from './gen_7';
 import * as gen_8 from './gen_8';
 import { getMovesByGen } from './index';
 
-let expected = {
-  1: 1,
-  2: 2,
-  3: 4,
-  4: 5,
-  5: 6,
-  6: 6,
-  7: 7,
-  8: 8,
-};
 
-Object.keys(expected).forEach(gen => {
-  test(`can get gen_${gen} moves`, () => {
-    expect(getMovesByGen(gen)).toBe(`gen_${gen}`.TYPES);
-  });
+test('can get gen_1 pokedex', () => {
+  expect(getMovesByGen(1)).toBe(gen_1.MOVES);
+});
+test('can get gen_2 pokedex', () => {
+  expect(getMovesByGen(2)).toBe(gen_2.MOVES);
+});
+test('can get gen_3 pokedex', () => {
+  expect(getMovesByGen(3)).toBe(gen_3.MOVES);
+});
+test('can get gen_4 pokedex', () => {
+  expect(getMovesByGen(4)).toBe(gen_4.MOVES);
+});
+test('can get gen_5 pokedex', () => {
+  expect(getMovesByGen(5)).toBe(gen_5.MOVES);
+});
+test('can get gen_6 pokedex', () => {
+  expect(getMovesByGen(6)).toBe(gen_6.MOVES);
+});
+test('can get gen_7 pokedex', () => {
+  expect(getMovesByGen(7)).toBe(gen_7.MOVES);
+});
+test('can get gen_8 pokedex', () => {
+  expect(getMovesByGen(8)).toBe(gen_8.MOVES);
 });
