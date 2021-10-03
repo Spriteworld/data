@@ -1,17 +1,8 @@
-import { NATURES } from './natures/definitions';
-import { GROWTH } from './experience/growth';
-import { EXPERIENCE_TABLES } from './experience/experienceTables';
+export { NATURES } from './natures/definitions';
+export { GROWTH } from './experience/growth';
+export { EXPERIENCE_TABLES } from './experience/experienceTables';
 
-import { calcLevel } from './utilities/calcLevel';
-import { calcStat } from './utilities/calcStat';
+export { calcLevel } from './utilities/calcLevel';
+export { calcStat, calcStats, getNatureWeighting } from './utilities/calcStat';
 
-
-
-export {
-  GROWTH,
-  NATURES,
-  EXPERIENCE_TABLES,
-
-  calcLevel,
-  calcStat
-};
+export { BasePokemon } from './basePokemon';

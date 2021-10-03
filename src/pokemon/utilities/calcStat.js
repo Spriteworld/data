@@ -1,4 +1,6 @@
-import { NATURES } from '../index';
+import { validate } from '../../utilities/validate';
+import { statValidation } from './statValidation';
+import { NATURES, GROWTH } from '../index';
 import { STATS } from '../../index';
 
 /**
@@ -13,14 +15,14 @@ export function calcStats(pokemon) {
       stat,
       pokemon.level,
       pokemon.nature,
-      pokemon.baseStats,
+      pokemon.pokemon.base_stats,
       pokemon.ivs,
       pokemon.evs
     );
   });
 
   return stats;
-};
+}
 
 /**
  * Calculates a pokemon stat
@@ -34,26 +36,40 @@ export function calcStats(pokemon) {
  */
 export function calcStat(stat, level, nature, baseStats, ivs, evs) {
   stat = stat.toUpperCase();
-  if (Object.values(STATS).includes(stat) === false) {
-    throw 'Stat "' + stat + '" is invalid!';
-  }
-  if (Object.keys(baseStats).length != 6) {
-    throw 'baseStats doesnt have all necessary keys: '+Object.keys(baseStats);
-  }
-  if (Object.keys(ivs).length != 6) {
-    throw 'ivs doesnt have all necessary keys: '+Object.keys(ivs);
-  }
-  if (Object.keys(evs).length != 6) {
-    throw 'evs doesnt have all necessary keys: '+Object.keys(evs);
+  const errors = validate({stat, level, nature, baseStats, ivs, evs}, {
+    'stat': {
+      'test': value => Object.values(STATS).includes(value),
+      'error': 'stat is invalid!',
+    },
+    'baseStats': {
+      'test': value => statValidation(value, 'baseStats'),
+      'error': 'baseStats doesnt have all necessary keys',
+    },
+    'ivs': {
+      'test': value => statValidation(value, 'ivs'),
+      'error': 'ivs doesnt have all necessary keys',
+    },
+    'evs': {
+      'test': value => statValidation(value, 'evs'),
+      'error': 'evs doesnt have all necessary keys',
+    }
+  });
+
+  if (errors.length > 0) {
+    for (const { message } of errors) {
+      throw message;
+    }
   }
 
-  level = level || 1;
+  level = parseInt(level) || 1;
   if (level > 100) {
     level = 100;
   }
-  let baseIvEv = 2 * baseStats[stat]
-                    + ivs[stat]
-                    + (evs[stat] / 4);
+  let baseIvEv = Math.floor(
+    2 * parseInt(baseStats[stat])
+    + parseInt(ivs[stat])
+    + Math.floor((parseInt(evs[stat]) / 4))
+  );
 
   let natureCalc = getNatureWeighting(stat, nature || NATURES.HARDY.name);
 
@@ -71,13 +87,16 @@ export function calcStat(stat, level, nature, baseStats, ivs, evs) {
  * @return float
  */
 export function getNatureWeighting(stat, nature) {
+  if (typeof nature === 'object') {
+    nature = nature.name;
+  }
   nature = nature.toUpperCase();
   if (Object.values(NATURES).map(nat => nat.name).includes(nature) === false) {
     throw 'Nature "' + nature + '" is invalid!';
   }
   let natureEffect = NATURES[nature];
 
-  if (natureEffect.increase === natureEffect.decrease){
+  if (natureEffect.increase === natureEffect.decrease) {
     return 1;
   }
   if (natureEffect.increase.toUpperCase() === stat.toUpperCase()) {

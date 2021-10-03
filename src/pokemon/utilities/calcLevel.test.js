@@ -1,10 +1,6 @@
 import { calcLevel } from './calcLevel';
 import { GROWTH } from '../index';
 
-let pokemon = {
-  species: 12,
-  speciesName: 'butterfree',
-};
 let expected = {
   [GROWTH.ERRATIC]: {10: 1900, 70: 278_458},
   [GROWTH.FAST]: {10: 810, 70: 274_420},

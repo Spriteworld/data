@@ -8,7 +8,11 @@ import { STATUS } from './status';
 import { WEATHER } from './weather';
 
 import * as TYPES from './types/definitions';
-import { EXPERIENCE_TABLES, GROWTH, NATURES } from './pokemon';
+import {
+  GROWTH, NATURES, EXPERIENCE_TABLES,
+
+  BasePokemon, calcLevel, calcStat
+} from './pokemon';
 
 export {
   COLORS,
@@ -22,5 +26,9 @@ export {
   STATUS,
   WEATHER,
   EXPERIENCE_TABLES,
-  TYPES
+  TYPES,
+
+  BasePokemon,
+  calcLevel,
+  calcStat,
 };

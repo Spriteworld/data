@@ -3,16 +3,17 @@ import { calcStats, calcStat, getNatureWeighting } from './calcStat';
 
 let pokemon = {
   species: 12,
-  speciesName: 'butterfree',
   level: 53,
   nature: 'modest',
-  baseStats: {
-    [STATS.HP]: 60,
-    [STATS.ATTACK]: 45,
-    [STATS.DEFENSE]: 50,
-    [STATS.SPECIAL_ATTACK]: 80,
-    [STATS.SPECIAL_DEFENSE]: 80,
-    [STATS.SPEED]: 70,
+  pokemon: {
+    base_stats: {
+      [STATS.HP]: 60,
+      [STATS.ATTACK]: 45,
+      [STATS.DEFENSE]: 50,
+      [STATS.SPECIAL_ATTACK]: 80,
+      [STATS.SPECIAL_DEFENSE]: 80,
+      [STATS.SPEED]: 70,
+    },
   },
   ivs: {
     [STATS.HP]: 28,
@@ -53,7 +54,7 @@ describe('calcStat should generate correct stats given known info', () => {
         stat,
         pokemon.level,
         pokemon.nature,
-        pokemon.baseStats,
+        pokemon.pokemon.base_stats,
         pokemon.ivs,
         pokemon.evs
       ))

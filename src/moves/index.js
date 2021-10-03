@@ -8,14 +8,18 @@ import * as gen_7 from './gen_7';
 import * as gen_8 from './gen_8';
 
 export function getMovesByGen(gen=8) {
+  let moves = {};
   switch(gen) {
-    case 1: return gen_1.MOVES; break;
-    case 2: return gen_2.MOVES; break;
-    case 3: return gen_3.MOVES; break;
-    case 4: return gen_4.MOVES; break;
-    case 5: return gen_5.MOVES; break;
-    case 6: return gen_6.MOVES; break;
-    case 7: return gen_7.MOVES; break;
-    case 8: return gen_8.MOVES; break;
+    case 1: moves = gen_1.MOVES; break;
+    case 2: moves = gen_2.MOVES; break;
+    case 3: moves = gen_3.MOVES; break;
+    case 4: moves = gen_4.MOVES; break;
+    case 5: moves = gen_5.MOVES; break;
+    case 6: moves = gen_6.MOVES; break;
+    case 7: moves = gen_7.MOVES; break;
+    case 8: moves = gen_8.MOVES; break;
+    default:
+      throw 'Gen "'+ gen +'" is invalid!';
   }
+  return moves;
 }
