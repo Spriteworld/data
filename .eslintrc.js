@@ -3,11 +3,15 @@ module.exports = {
   root: true,
   parser: "babel-eslint",
   plugins: ["jest"],
+  parserOptions: {
+    "sourceType": "module"
+  },
   extends: [
     "eslint:recommended"
   ],
   env: {
-    "jest/globals": true
+    "jest/globals": true,
+    "node": true,
   },
   rules: {
     "no-empty-function": "off"

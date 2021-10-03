@@ -1,7 +1,7 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
-  // setupFiles: ['jest-canvas-mock'],
+  setupFilesAfterEnv: ["jest-extended"],
   moduleDirectories: ['node_modules', 'src'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   roots: ["<rootDir>/src"],
