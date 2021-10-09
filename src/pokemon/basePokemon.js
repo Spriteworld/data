@@ -56,9 +56,10 @@ export class BasePokemon {
     if (typeof this.pokemon === 'undefined') {
       this.pokemon = pokemon;
     }
-
+    // console.log(['BasePokemon', this]);
     // calc the base stats
     this.stats = calcStats(this);
+    this.currentHp = this.stats?.HP;
 
     const errors = validate(this, {
       'nature': {
@@ -82,6 +83,10 @@ export class BasePokemon {
     }
   }
 
+
+  getName() {
+    return this.nickname || this.species;
+  }
 
   getCalculatedStats() {
     return this.stats;

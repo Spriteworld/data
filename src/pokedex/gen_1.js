@@ -88,6 +88,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 62,
       [STATS.DEFENSE]: 63,
       [STATS.SPECIAL_ATTACK]: 80,
@@ -146,6 +147,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 82,
       [STATS.DEFENSE]: 83,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -203,6 +205,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 39,
       [STATS.ATTACK]: 52,
       [STATS.DEFENSE]: 43,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -256,6 +259,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 58,
       [STATS.ATTACK]: 64,
       [STATS.DEFENSE]: 58,
       [STATS.SPECIAL_ATTACK]: 80,
@@ -314,6 +318,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 78,
       [STATS.ATTACK]: 84,
       [STATS.DEFENSE]: 78,
       [STATS.SPECIAL_ATTACK]: 109,
@@ -367,6 +372,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 44,
       [STATS.ATTACK]: 48,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -420,6 +426,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 59,
       [STATS.ATTACK]: 63,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -477,6 +484,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 79,
       [STATS.ATTACK]: 83,
       [STATS.DEFENSE]: 100,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -530,6 +538,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 45,
       [STATS.ATTACK]: 30,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 20,
@@ -540,7 +549,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 29,
     "base_exp_yield": 39,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -578,6 +587,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 20,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 25,
@@ -588,7 +598,7 @@ export const POKEDEX = {
     "height": 7,
     "weight": 99,
     "base_exp_yield": 72,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 120,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -642,7 +652,7 @@ export const POKEDEX = {
     "height": 11,
     "weight": 320,
     "base_exp_yield": 178,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -689,6 +699,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 35,
       [STATS.DEFENSE]: 30,
       [STATS.SPECIAL_ATTACK]: 20,
@@ -699,7 +710,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 32,
     "base_exp_yield": 39,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -738,6 +749,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 45,
       [STATS.ATTACK]: 25,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 25,
@@ -748,7 +760,7 @@ export const POKEDEX = {
     "height": 6,
     "weight": 100,
     "base_exp_yield": 72,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 120,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -791,6 +803,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 90,
       [STATS.DEFENSE]: 40,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -801,7 +814,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 295,
     "base_exp_yield": 178,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -852,6 +865,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 40,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -909,6 +923,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 63,
       [STATS.ATTACK]: 60,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -966,6 +981,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 83,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 75,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -1022,6 +1038,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 30,
       [STATS.ATTACK]: 56,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 25,
@@ -1032,7 +1049,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 35,
     "base_exp_yield": 51,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -1078,6 +1095,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 81,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -1088,7 +1106,7 @@ export const POKEDEX = {
     "height": 7,
     "weight": 185,
     "base_exp_yield": 145,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 127,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -1131,6 +1149,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 60,
       [STATS.DEFENSE]: 30,
       [STATS.SPECIAL_ATTACK]: 31,
@@ -1141,7 +1160,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 20,
     "base_exp_yield": 52,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -1184,6 +1203,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 90,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 61,
@@ -1194,7 +1214,7 @@ export const POKEDEX = {
     "height": 12,
     "weight": 380,
     "base_exp_yield": 155,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 90,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -1240,6 +1260,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 35,
       [STATS.ATTACK]: 60,
       [STATS.DEFENSE]: 44,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -1250,7 +1271,7 @@ export const POKEDEX = {
     "height": 20,
     "weight": 69,
     "base_exp_yield": 58,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -1297,6 +1318,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 69,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -1307,7 +1329,7 @@ export const POKEDEX = {
     "height": 35,
     "weight": 650,
     "base_exp_yield": 157,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 90,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -1361,7 +1383,7 @@ export const POKEDEX = {
     "height": 4,
     "weight": 60,
     "base_exp_yield": 112,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 2551,
     "egg_groups": [
@@ -1404,6 +1426,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 90,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 90,
@@ -1414,7 +1437,7 @@ export const POKEDEX = {
     "height": 8,
     "weight": 300,
     "base_exp_yield": 218,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 2551,
     "egg_groups": [
@@ -1457,6 +1480,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 75,
       [STATS.DEFENSE]: 85,
       [STATS.SPECIAL_ATTACK]: 20,
@@ -1467,7 +1491,7 @@ export const POKEDEX = {
     "height": 6,
     "weight": 120,
     "base_exp_yield": 60,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -1509,6 +1533,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 75,
       [STATS.ATTACK]: 100,
       [STATS.DEFENSE]: 110,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -1519,7 +1544,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 295,
     "base_exp_yield": 158,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 90,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -1561,6 +1586,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 47,
       [STATS.DEFENSE]: 52,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -1614,6 +1640,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 70,
       [STATS.ATTACK]: 62,
       [STATS.DEFENSE]: 67,
       [STATS.SPECIAL_ATTACK]: 55,
@@ -1667,6 +1694,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 92,
       [STATS.DEFENSE]: 87,
       [STATS.SPECIAL_ATTACK]: 75,
@@ -1719,6 +1747,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 46,
       [STATS.ATTACK]: 57,
       [STATS.DEFENSE]: 40,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -1772,6 +1801,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 61,
       [STATS.ATTACK]: 72,
       [STATS.DEFENSE]: 57,
       [STATS.SPECIAL_ATTACK]: 55,
@@ -1826,6 +1856,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 81,
       [STATS.ATTACK]: 102,
       [STATS.DEFENSE]: 77,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -1883,6 +1914,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 70,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 48,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -1939,6 +1971,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 95,
       [STATS.ATTACK]: 70,
       [STATS.DEFENSE]: 73,
       [STATS.SPECIAL_ATTACK]: 95,
@@ -1991,6 +2024,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 38,
       [STATS.ATTACK]: 41,
       [STATS.DEFENSE]: 40,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -2001,7 +2035,7 @@ export const POKEDEX = {
     "height": 6,
     "weight": 99,
     "base_exp_yield": 60,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2043,6 +2077,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 73,
       [STATS.ATTACK]: 76,
       [STATS.DEFENSE]: 75,
       [STATS.SPECIAL_ATTACK]: 81,
@@ -2053,7 +2088,7 @@ export const POKEDEX = {
     "height": 11,
     "weight": 199,
     "base_exp_yield": 177,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2104,6 +2139,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 115,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 20,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -2161,6 +2197,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 140,
       [STATS.ATTACK]: 70,
       [STATS.DEFENSE]: 45,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -2214,6 +2251,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 30,
@@ -2224,7 +2262,7 @@ export const POKEDEX = {
     "height": 8,
     "weight": 75,
     "base_exp_yield": 49,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -2267,6 +2305,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 75,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -2277,7 +2316,7 @@ export const POKEDEX = {
     "height": 16,
     "weight": 550,
     "base_exp_yield": 159,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 90,
     "base_egg_steps": 3826,
     "egg_groups": [
@@ -2320,6 +2359,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 45,
       [STATS.ATTACK]: 50,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 75,
@@ -2373,6 +2413,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -2426,6 +2467,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 75,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 85,
       [STATS.SPECIAL_ATTACK]: 110,
@@ -2483,6 +2525,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 35,
       [STATS.ATTACK]: 70,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -2493,7 +2536,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 54,
     "base_exp_yield": 57,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2541,6 +2584,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -2551,7 +2595,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 295,
     "base_exp_yield": 142,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2603,6 +2647,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 55,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -2613,7 +2658,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 300,
     "base_exp_yield": 61,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2660,6 +2705,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 70,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 90,
@@ -2670,7 +2716,7 @@ export const POKEDEX = {
     "height": 15,
     "weight": 125,
     "base_exp_yield": 158,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2720,6 +2766,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 10,
       [STATS.ATTACK]: 55,
       [STATS.DEFENSE]: 25,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -2730,7 +2777,7 @@ export const POKEDEX = {
     "height": 2,
     "weight": 8,
     "base_exp_yield": 53,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2776,6 +2823,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 35,
       [STATS.ATTACK]: 100,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -2786,7 +2834,7 @@ export const POKEDEX = {
     "height": 7,
     "weight": 333,
     "base_exp_yield": 149,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 50,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2832,6 +2880,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -2842,7 +2891,7 @@ export const POKEDEX = {
     "height": 4,
     "weight": 42,
     "base_exp_yield": 58,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 255,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2888,6 +2937,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 70,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -2898,7 +2948,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 320,
     "base_exp_yield": 154,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 90,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -2944,6 +2994,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 52,
       [STATS.DEFENSE]: 48,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -2954,7 +3005,7 @@ export const POKEDEX = {
     "height": 8,
     "weight": 196,
     "base_exp_yield": 64,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -3001,6 +3052,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 82,
       [STATS.DEFENSE]: 78,
       [STATS.SPECIAL_ATTACK]: 95,
@@ -3011,7 +3063,7 @@ export const POKEDEX = {
     "height": 17,
     "weight": 766,
     "base_exp_yield": 175,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -3058,6 +3110,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -3068,7 +3121,7 @@ export const POKEDEX = {
     "height": 5,
     "weight": 280,
     "base_exp_yield": 61,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -3114,6 +3167,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 105,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -3124,7 +3178,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 320,
     "base_exp_yield": 159,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -3170,6 +3224,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 70,
       [STATS.DEFENSE]: 45,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -3226,6 +3281,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 110,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -3282,6 +3338,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 50,
       [STATS.DEFENSE]: 40,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -3338,6 +3395,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -3395,6 +3453,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -3451,6 +3510,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 25,
       [STATS.ATTACK]: 20,
       [STATS.DEFENSE]: 15,
       [STATS.SPECIAL_ATTACK]: 105,
@@ -3507,6 +3567,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 35,
       [STATS.DEFENSE]: 30,
       [STATS.SPECIAL_ATTACK]: 120,
@@ -3563,6 +3624,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 50,
       [STATS.DEFENSE]: 45,
       [STATS.SPECIAL_ATTACK]: 135,
@@ -3619,6 +3681,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 70,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -3675,6 +3738,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 100,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -3731,6 +3795,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 130,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -3784,6 +3849,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 75,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -3837,6 +3903,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 90,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -3890,6 +3957,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 105,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -3947,6 +4015,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 40,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -4004,6 +4073,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 70,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 80,
@@ -4061,6 +4131,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 100,
       [STATS.SPECIAL_ATTACK]: 30,
@@ -4118,6 +4189,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 115,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -4175,6 +4247,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 120,
       [STATS.DEFENSE]: 130,
       [STATS.SPECIAL_ATTACK]: 55,
@@ -4231,6 +4304,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 85,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -4241,7 +4315,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 300,
     "base_exp_yield": 82,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4287,6 +4361,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 100,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 80,
@@ -4297,7 +4372,7 @@ export const POKEDEX = {
     "height": 17,
     "weight": 950,
     "base_exp_yield": 175,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 60,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4344,6 +4419,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -4354,7 +4430,7 @@ export const POKEDEX = {
     "height": 12,
     "weight": 360,
     "base_exp_yield": 63,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4402,6 +4478,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 95,
       [STATS.ATTACK]: 75,
       [STATS.DEFENSE]: 110,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -4412,7 +4489,7 @@ export const POKEDEX = {
     "height": 16,
     "weight": 785,
     "base_exp_yield": 172,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4456,6 +4533,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 25,
       [STATS.ATTACK]: 35,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 95,
@@ -4466,7 +4544,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 60,
     "base_exp_yield": 65,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4509,6 +4587,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 60,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 120,
@@ -4519,7 +4598,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 600,
     "base_exp_yield": 163,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 60,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4566,6 +4645,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 52,
       [STATS.ATTACK]: 90,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 58,
@@ -4576,7 +4656,7 @@ export const POKEDEX = {
     "height": 8,
     "weight": 150,
     "base_exp_yield": 132,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4624,6 +4704,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 35,
       [STATS.ATTACK]: 85,
       [STATS.DEFENSE]: 45,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -4634,7 +4715,7 @@ export const POKEDEX = {
     "height": 14,
     "weight": 392,
     "base_exp_yield": 62,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4681,6 +4762,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 110,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -4691,7 +4773,7 @@ export const POKEDEX = {
     "height": 18,
     "weight": 852,
     "base_exp_yield": 165,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4737,6 +4819,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -4747,7 +4830,7 @@ export const POKEDEX = {
     "height": 11,
     "weight": 900,
     "base_exp_yield": 65,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4795,6 +4878,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 70,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -4805,7 +4889,7 @@ export const POKEDEX = {
     "height": 17,
     "weight": 1200,
     "base_exp_yield": 166,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4852,6 +4936,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -4862,7 +4947,7 @@ export const POKEDEX = {
     "height": 9,
     "weight": 300,
     "base_exp_yield": 65,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4908,6 +4993,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 105,
       [STATS.ATTACK]: 105,
       [STATS.DEFENSE]: 75,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -4918,7 +5004,7 @@ export const POKEDEX = {
     "height": 12,
     "weight": 300,
     "base_exp_yield": 175,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -4968,6 +5054,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 30,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 100,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -5025,6 +5112,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 180,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -5074,6 +5162,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 30,
       [STATS.ATTACK]: 35,
       [STATS.DEFENSE]: 30,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -5123,6 +5212,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 45,
       [STATS.ATTACK]: 50,
       [STATS.DEFENSE]: 45,
       [STATS.SPECIAL_ATTACK]: 115,
@@ -5172,6 +5262,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 130,
@@ -5229,6 +5320,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 35,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 160,
       [STATS.SPECIAL_ATTACK]: 30,
@@ -5239,7 +5331,7 @@ export const POKEDEX = {
     "height": 88,
     "weight": 2100,
     "base_exp_yield": 77,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -5285,6 +5377,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 48,
       [STATS.DEFENSE]: 45,
       [STATS.SPECIAL_ATTACK]: 43,
@@ -5295,7 +5388,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 324,
     "base_exp_yield": 66,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5341,6 +5434,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 85,
       [STATS.ATTACK]: 73,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 73,
@@ -5351,7 +5445,7 @@ export const POKEDEX = {
     "height": 16,
     "weight": 756,
     "base_exp_yield": 169,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5397,6 +5491,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 30,
       [STATS.ATTACK]: 105,
       [STATS.DEFENSE]: 90,
       [STATS.SPECIAL_ATTACK]: 25,
@@ -5407,7 +5502,7 @@ export const POKEDEX = {
     "height": 4,
     "weight": 65,
     "base_exp_yield": 65,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 225,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5453,6 +5548,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 130,
       [STATS.DEFENSE]: 115,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -5463,7 +5559,7 @@ export const POKEDEX = {
     "height": 13,
     "weight": 600,
     "base_exp_yield": 166,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 60,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5505,6 +5601,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 30,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 55,
@@ -5515,7 +5612,7 @@ export const POKEDEX = {
     "height": 5,
     "weight": 104,
     "base_exp_yield": 66,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5557,6 +5654,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 50,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 80,
@@ -5567,7 +5665,7 @@ export const POKEDEX = {
     "height": 12,
     "weight": 666,
     "base_exp_yield": 172,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 60,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5610,6 +5708,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 40,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -5663,6 +5762,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 95,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 85,
       [STATS.SPECIAL_ATTACK]: 125,
@@ -5719,6 +5819,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 50,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -5729,7 +5830,7 @@ export const POKEDEX = {
     "height": 4,
     "weight": 65,
     "base_exp_yield": 64,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5775,6 +5876,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 110,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -5785,7 +5887,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 450,
     "base_exp_yield": 149,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5827,6 +5929,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 120,
       [STATS.DEFENSE]: 53,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -5837,7 +5940,7 @@ export const POKEDEX = {
     "height": 15,
     "weight": 498,
     "base_exp_yield": 159,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -5879,6 +5982,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 50,
       [STATS.ATTACK]: 105,
       [STATS.DEFENSE]: 79,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -5889,7 +5993,7 @@ export const POKEDEX = {
     "height": 14,
     "weight": 502,
     "base_exp_yield": 159,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -5935,6 +6039,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 55,
       [STATS.DEFENSE]: 75,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -5945,7 +6050,7 @@ export const POKEDEX = {
     "height": 12,
     "weight": 655,
     "base_exp_yield": 77,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -5983,6 +6088,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -5993,7 +6099,7 @@ export const POKEDEX = {
     "height": 6,
     "weight": 10,
     "base_exp_yield": 68,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 190,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6031,6 +6137,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 90,
       [STATS.DEFENSE]: 120,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -6041,7 +6148,7 @@ export const POKEDEX = {
     "height": 12,
     "weight": 95,
     "base_exp_yield": 172,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 60,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6088,6 +6195,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 85,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 30,
@@ -6146,6 +6254,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 105,
       [STATS.ATTACK]: 130,
       [STATS.DEFENSE]: 120,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -6199,6 +6308,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 250,
       [STATS.ATTACK]: 5,
       [STATS.DEFENSE]: 5,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -6255,6 +6365,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 55,
       [STATS.DEFENSE]: 115,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -6265,7 +6376,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 350,
     "base_exp_yield": 87,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6307,6 +6418,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 105,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -6317,7 +6429,7 @@ export const POKEDEX = {
     "height": 22,
     "weight": 800,
     "base_exp_yield": 172,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6363,6 +6475,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 30,
       [STATS.ATTACK]: 40,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -6373,7 +6486,7 @@ export const POKEDEX = {
     "height": 4,
     "weight": 80,
     "base_exp_yield": 59,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 225,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6420,6 +6533,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 95,
@@ -6430,7 +6544,7 @@ export const POKEDEX = {
     "height": 12,
     "weight": 250,
     "base_exp_yield": 154,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 75,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6481,6 +6595,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 45,
       [STATS.ATTACK]: 67,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 35,
@@ -6491,7 +6606,7 @@ export const POKEDEX = {
     "height": 6,
     "weight": 150,
     "base_exp_yield": 64,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 225,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6537,6 +6652,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 92,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -6547,7 +6663,7 @@ export const POKEDEX = {
     "height": 13,
     "weight": 390,
     "base_exp_yield": 158,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 60,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -6589,6 +6705,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 30,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -6642,6 +6759,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 75,
       [STATS.DEFENSE]: 85,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -6699,6 +6817,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 40,
       [STATS.ATTACK]: 45,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -6709,7 +6828,7 @@ export const POKEDEX = {
     "height": 13,
     "weight": 545,
     "base_exp_yield": 161,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -6756,6 +6875,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 70,
       [STATS.ATTACK]: 110,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 55,
@@ -6766,7 +6886,7 @@ export const POKEDEX = {
     "height": 15,
     "weight": 560,
     "base_exp_yield": 100,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -6809,6 +6929,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 50,
       [STATS.DEFENSE]: 35,
       [STATS.SPECIAL_ATTACK]: 115,
@@ -6819,7 +6940,7 @@ export const POKEDEX = {
     "height": 14,
     "weight": 406,
     "base_exp_yield": 159,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -6861,6 +6982,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 83,
       [STATS.DEFENSE]: 57,
       [STATS.SPECIAL_ATTACK]: 95,
@@ -6871,7 +6993,7 @@ export const POKEDEX = {
     "height": 11,
     "weight": 300,
     "base_exp_yield": 172,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -6913,6 +7035,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 95,
       [STATS.DEFENSE]: 57,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -6923,7 +7046,7 @@ export const POKEDEX = {
     "height": 13,
     "weight": 445,
     "base_exp_yield": 173,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 6376,
     "egg_groups": [
@@ -6969,6 +7092,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 125,
       [STATS.DEFENSE]: 100,
       [STATS.SPECIAL_ATTACK]: 55,
@@ -7021,6 +7145,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 75,
       [STATS.ATTACK]: 100,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 40,
@@ -7077,6 +7202,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 20,
       [STATS.ATTACK]: 10,
       [STATS.DEFENSE]: 55,
       [STATS.SPECIAL_ATTACK]: 15,
@@ -7131,6 +7257,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 95,
       [STATS.ATTACK]: 125,
       [STATS.DEFENSE]: 79,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -7189,6 +7316,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 130,
       [STATS.ATTACK]: 85,
       [STATS.DEFENSE]: 80,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -7238,6 +7366,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 48,
       [STATS.ATTACK]: 48,
       [STATS.DEFENSE]: 48,
       [STATS.SPECIAL_ATTACK]: 48,
@@ -7248,7 +7377,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 40,
     "base_exp_yield": 101,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 35,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -7294,6 +7423,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 55,
       [STATS.ATTACK]: 55,
       [STATS.DEFENSE]: 50,
       [STATS.SPECIAL_ATTACK]: 45,
@@ -7304,7 +7434,7 @@ export const POKEDEX = {
     "height": 3,
     "weight": 65,
     "base_exp_yield": 65,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 8926,
     "egg_groups": [
@@ -7346,6 +7476,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 130,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 110,
@@ -7356,7 +7487,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 290,
     "base_exp_yield": 184,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 8926,
     "egg_groups": [
@@ -7398,6 +7529,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 65,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 110,
@@ -7408,7 +7540,7 @@ export const POKEDEX = {
     "height": 8,
     "weight": 245,
     "base_exp_yield": 184,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 8926,
     "egg_groups": [
@@ -7450,6 +7582,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 130,
       [STATS.DEFENSE]: 60,
       [STATS.SPECIAL_ATTACK]: 95,
@@ -7460,7 +7593,7 @@ export const POKEDEX = {
     "height": 9,
     "weight": 250,
     "base_exp_yield": 184,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 8926,
     "egg_groups": [
@@ -7502,6 +7635,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 65,
       [STATS.ATTACK]: 60,
       [STATS.DEFENSE]: 70,
       [STATS.SPECIAL_ATTACK]: 85,
@@ -7512,7 +7646,7 @@ export const POKEDEX = {
     "height": 8,
     "weight": 365,
     "base_exp_yield": 79,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 5101,
     "egg_groups": [
@@ -7559,6 +7693,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 35,
       [STATS.ATTACK]: 40,
       [STATS.DEFENSE]: 100,
       [STATS.SPECIAL_ATTACK]: 90,
@@ -7569,7 +7704,7 @@ export const POKEDEX = {
     "height": 4,
     "weight": 75,
     "base_exp_yield": 71,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 7651,
     "egg_groups": [
@@ -7617,6 +7752,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 70,
       [STATS.ATTACK]: 60,
       [STATS.DEFENSE]: 125,
       [STATS.SPECIAL_ATTACK]: 115,
@@ -7627,7 +7763,7 @@ export const POKEDEX = {
     "height": 10,
     "weight": 350,
     "base_exp_yield": 173,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 7651,
     "egg_groups": [
@@ -7675,6 +7811,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 30,
       [STATS.ATTACK]: 80,
       [STATS.DEFENSE]: 90,
       [STATS.SPECIAL_ATTACK]: 55,
@@ -7685,7 +7822,7 @@ export const POKEDEX = {
     "height": 5,
     "weight": 115,
     "base_exp_yield": 71,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 7651,
     "egg_groups": [
@@ -7733,6 +7870,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 60,
       [STATS.ATTACK]: 115,
       [STATS.DEFENSE]: 105,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -7743,7 +7881,7 @@ export const POKEDEX = {
     "height": 13,
     "weight": 405,
     "base_exp_yield": 173,
-    "growth": GROWTH.MEDIUM,
+    "growth": GROWTH.MEDIUM_FAST,
     "capture_rate": 45,
     "base_egg_steps": 7651,
     "egg_groups": [
@@ -7791,6 +7929,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 80,
       [STATS.ATTACK]: 105,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 60,
@@ -7847,6 +7986,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 160,
       [STATS.ATTACK]: 110,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 65,
@@ -7896,6 +8036,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 85,
       [STATS.DEFENSE]: 100,
       [STATS.SPECIAL_ATTACK]: 95,
@@ -7945,6 +8086,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 90,
       [STATS.DEFENSE]: 85,
       [STATS.SPECIAL_ATTACK]: 125,
@@ -7994,6 +8136,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 90,
       [STATS.ATTACK]: 100,
       [STATS.DEFENSE]: 90,
       [STATS.SPECIAL_ATTACK]: 125,
@@ -8046,6 +8189,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 41,
       [STATS.ATTACK]: 64,
       [STATS.DEFENSE]: 45,
       [STATS.SPECIAL_ATTACK]: 50,
@@ -8099,6 +8243,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 61,
       [STATS.ATTACK]: 84,
       [STATS.DEFENSE]: 65,
       [STATS.SPECIAL_ATTACK]: 70,
@@ -8153,6 +8298,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 91,
       [STATS.ATTACK]: 134,
       [STATS.DEFENSE]: 95,
       [STATS.SPECIAL_ATTACK]: 100,
@@ -8202,6 +8348,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 106,
       [STATS.ATTACK]: 110,
       [STATS.DEFENSE]: 90,
       [STATS.SPECIAL_ATTACK]: 154,
@@ -8246,6 +8393,7 @@ export const POKEDEX = {
     ],
     "form": [],
     "base_stats": {
+      [STATS.HP]: 100 ,
       [STATS.ATTACK]: 100,
       [STATS.DEFENSE]: 100,
       [STATS.SPECIAL_ATTACK]: 100,
