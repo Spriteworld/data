@@ -1,11 +1,11 @@
 import * as definitions from './definitions';
-import * as types from '../types/definitions';
+import * as TYPES from '../types/definitions';
 
 export const MOVES = [
   {
     "id": 1,
     "name": "pound",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 40,
@@ -15,7 +15,7 @@ export const MOVES = [
   {
     "id": 2,
     "name": "karate chop",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 50,
@@ -25,7 +25,7 @@ export const MOVES = [
   {
     "id": 3,
     "name": "double slap",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 15,
@@ -35,7 +35,7 @@ export const MOVES = [
   {
     "id": 4,
     "name": "comet punch",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 18,
@@ -45,7 +45,7 @@ export const MOVES = [
   {
     "id": 5,
     "name": "mega punch",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 80,
@@ -55,7 +55,7 @@ export const MOVES = [
   {
     "id": 6,
     "name": "pay day",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 40,
@@ -65,7 +65,7 @@ export const MOVES = [
   {
     "id": 7,
     "name": "fire punch",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 75,
@@ -75,7 +75,7 @@ export const MOVES = [
   {
     "id": 8,
     "name": "ice punch",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 75,
@@ -85,7 +85,7 @@ export const MOVES = [
   {
     "id": 9,
     "name": "thunder punch",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 75,
@@ -95,7 +95,7 @@ export const MOVES = [
   {
     "id": 10,
     "name": "scratch",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 40,
@@ -105,7 +105,7 @@ export const MOVES = [
   {
     "id": 11,
     "name": "vise grip",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 55,
@@ -115,7 +115,7 @@ export const MOVES = [
   {
     "id": 12,
     "name": "guillotine",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 0,
@@ -125,7 +125,7 @@ export const MOVES = [
   {
     "id": 13,
     "name": "razor wind",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -135,7 +135,7 @@ export const MOVES = [
   {
     "id": 14,
     "name": "swords dance",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -145,7 +145,7 @@ export const MOVES = [
   {
     "id": 15,
     "name": "cut",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 50,
@@ -155,7 +155,7 @@ export const MOVES = [
   {
     "id": 16,
     "name": "gust",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.SPECIAL,
     "pp": 35,
     "power": 40,
@@ -165,7 +165,7 @@ export const MOVES = [
   {
     "id": 17,
     "name": "wing attack",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 60,
@@ -175,7 +175,7 @@ export const MOVES = [
   {
     "id": 18,
     "name": "whirlwind",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -185,7 +185,7 @@ export const MOVES = [
   {
     "id": 19,
     "name": "fly",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 90,
@@ -195,7 +195,7 @@ export const MOVES = [
   {
     "id": 20,
     "name": "bind",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 15,
@@ -205,7 +205,7 @@ export const MOVES = [
   {
     "id": 21,
     "name": "slam",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 80,
@@ -215,7 +215,7 @@ export const MOVES = [
   {
     "id": 22,
     "name": "vine whip",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 45,
@@ -225,7 +225,7 @@ export const MOVES = [
   {
     "id": 23,
     "name": "stomp",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 65,
@@ -235,7 +235,7 @@ export const MOVES = [
   {
     "id": 24,
     "name": "double kick",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 30,
@@ -245,7 +245,7 @@ export const MOVES = [
   {
     "id": 25,
     "name": "mega kick",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 120,
@@ -255,7 +255,7 @@ export const MOVES = [
   {
     "id": 26,
     "name": "jump kick",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 100,
@@ -265,7 +265,7 @@ export const MOVES = [
   {
     "id": 27,
     "name": "rolling kick",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 60,
@@ -275,7 +275,7 @@ export const MOVES = [
   {
     "id": 28,
     "name": "sand attack",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -285,7 +285,7 @@ export const MOVES = [
   {
     "id": 29,
     "name": "headbutt",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 70,
@@ -295,7 +295,7 @@ export const MOVES = [
   {
     "id": 30,
     "name": "horn attack",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 65,
@@ -305,7 +305,7 @@ export const MOVES = [
   {
     "id": 31,
     "name": "fury attack",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 15,
@@ -315,7 +315,7 @@ export const MOVES = [
   {
     "id": 32,
     "name": "horn drill",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 0,
@@ -325,7 +325,7 @@ export const MOVES = [
   {
     "id": 33,
     "name": "tackle",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 40,
@@ -335,7 +335,7 @@ export const MOVES = [
   {
     "id": 34,
     "name": "body slam",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 85,
@@ -345,7 +345,7 @@ export const MOVES = [
   {
     "id": 35,
     "name": "wrap",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 15,
@@ -355,7 +355,7 @@ export const MOVES = [
   {
     "id": 36,
     "name": "take down",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 90,
@@ -365,7 +365,7 @@ export const MOVES = [
   {
     "id": 37,
     "name": "thrash",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 120,
@@ -375,7 +375,7 @@ export const MOVES = [
   {
     "id": 38,
     "name": "double-edge",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 120,
@@ -385,7 +385,7 @@ export const MOVES = [
   {
     "id": 39,
     "name": "tail whip",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -395,7 +395,7 @@ export const MOVES = [
   {
     "id": 40,
     "name": "poison sting",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 15,
@@ -405,7 +405,7 @@ export const MOVES = [
   {
     "id": 41,
     "name": "twineedle",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 25,
@@ -415,7 +415,7 @@ export const MOVES = [
   {
     "id": 42,
     "name": "pin missile",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 25,
@@ -425,7 +425,7 @@ export const MOVES = [
   {
     "id": 43,
     "name": "leer",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -435,7 +435,7 @@ export const MOVES = [
   {
     "id": 44,
     "name": "bite",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 60,
@@ -445,7 +445,7 @@ export const MOVES = [
   {
     "id": 45,
     "name": "growl",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -455,7 +455,7 @@ export const MOVES = [
   {
     "id": 46,
     "name": "roar",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -465,7 +465,7 @@ export const MOVES = [
   {
     "id": 47,
     "name": "sing",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -475,7 +475,7 @@ export const MOVES = [
   {
     "id": 48,
     "name": "supersonic",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -485,7 +485,7 @@ export const MOVES = [
   {
     "id": 49,
     "name": "sonic boom",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 0,
@@ -495,7 +495,7 @@ export const MOVES = [
   {
     "id": 50,
     "name": "disable",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -505,7 +505,7 @@ export const MOVES = [
   {
     "id": 51,
     "name": "acid",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 30,
     "power": 40,
@@ -515,7 +515,7 @@ export const MOVES = [
   {
     "id": 52,
     "name": "ember",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 25,
     "power": 40,
@@ -525,7 +525,7 @@ export const MOVES = [
   {
     "id": 53,
     "name": "flamethrower",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 90,
@@ -535,7 +535,7 @@ export const MOVES = [
   {
     "id": 54,
     "name": "mist",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -545,7 +545,7 @@ export const MOVES = [
   {
     "id": 55,
     "name": "water gun",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 25,
     "power": 40,
@@ -555,7 +555,7 @@ export const MOVES = [
   {
     "id": 56,
     "name": "hydro pump",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 110,
@@ -565,7 +565,7 @@ export const MOVES = [
   {
     "id": 57,
     "name": "surf",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 90,
@@ -575,7 +575,7 @@ export const MOVES = [
   {
     "id": 58,
     "name": "ice beam",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -585,7 +585,7 @@ export const MOVES = [
   {
     "id": 59,
     "name": "blizzard",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 110,
@@ -595,7 +595,7 @@ export const MOVES = [
   {
     "id": 60,
     "name": "psybeam",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 65,
@@ -605,7 +605,7 @@ export const MOVES = [
   {
     "id": 61,
     "name": "bubble beam",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 65,
@@ -615,7 +615,7 @@ export const MOVES = [
   {
     "id": 62,
     "name": "aurora beam",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 65,
@@ -625,7 +625,7 @@ export const MOVES = [
   {
     "id": 63,
     "name": "hyper beam",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 150,
@@ -635,7 +635,7 @@ export const MOVES = [
   {
     "id": 64,
     "name": "peck",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 35,
@@ -645,7 +645,7 @@ export const MOVES = [
   {
     "id": 65,
     "name": "drill peck",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 80,
@@ -655,7 +655,7 @@ export const MOVES = [
   {
     "id": 66,
     "name": "submission",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 80,
@@ -665,7 +665,7 @@ export const MOVES = [
   {
     "id": 67,
     "name": "low kick",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 0,
@@ -675,7 +675,7 @@ export const MOVES = [
   {
     "id": 68,
     "name": "counter",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 0,
@@ -685,7 +685,7 @@ export const MOVES = [
   {
     "id": 69,
     "name": "seismic toss",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 0,
@@ -695,7 +695,7 @@ export const MOVES = [
   {
     "id": 70,
     "name": "strength",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -705,7 +705,7 @@ export const MOVES = [
   {
     "id": 71,
     "name": "absorb",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 25,
     "power": 20,
@@ -715,7 +715,7 @@ export const MOVES = [
   {
     "id": 72,
     "name": "mega drain",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 40,
@@ -725,7 +725,7 @@ export const MOVES = [
   {
     "id": 73,
     "name": "leech seed",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -735,7 +735,7 @@ export const MOVES = [
   {
     "id": 74,
     "name": "growth",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -745,7 +745,7 @@ export const MOVES = [
   {
     "id": 75,
     "name": "razor leaf",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 55,
@@ -755,7 +755,7 @@ export const MOVES = [
   {
     "id": 76,
     "name": "solar beam",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 120,
@@ -765,7 +765,7 @@ export const MOVES = [
   {
     "id": 77,
     "name": "poison powder",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.STATUS,
     "pp": 35,
     "power": 0,
@@ -775,7 +775,7 @@ export const MOVES = [
   {
     "id": 78,
     "name": "stun spore",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -785,7 +785,7 @@ export const MOVES = [
   {
     "id": 79,
     "name": "sleep powder",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -795,7 +795,7 @@ export const MOVES = [
   {
     "id": 80,
     "name": "petal dance",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 120,
@@ -805,7 +805,7 @@ export const MOVES = [
   {
     "id": 81,
     "name": "string shot",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -815,7 +815,7 @@ export const MOVES = [
   {
     "id": 82,
     "name": "dragon rage",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 0,
@@ -825,7 +825,7 @@ export const MOVES = [
   {
     "id": 83,
     "name": "fire spin",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 35,
@@ -835,7 +835,7 @@ export const MOVES = [
   {
     "id": 84,
     "name": "thunder shock",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 30,
     "power": 40,
@@ -845,7 +845,7 @@ export const MOVES = [
   {
     "id": 85,
     "name": "thunderbolt",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 90,
@@ -855,7 +855,7 @@ export const MOVES = [
   {
     "id": 86,
     "name": "thunder wave",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -865,7 +865,7 @@ export const MOVES = [
   {
     "id": 87,
     "name": "thunder",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 110,
@@ -875,7 +875,7 @@ export const MOVES = [
   {
     "id": 88,
     "name": "rock throw",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 50,
@@ -885,7 +885,7 @@ export const MOVES = [
   {
     "id": 89,
     "name": "earthquake",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 100,
@@ -895,7 +895,7 @@ export const MOVES = [
   {
     "id": 90,
     "name": "fissure",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 0,
@@ -905,7 +905,7 @@ export const MOVES = [
   {
     "id": 91,
     "name": "dig",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 80,
@@ -915,7 +915,7 @@ export const MOVES = [
   {
     "id": 92,
     "name": "toxic",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -925,7 +925,7 @@ export const MOVES = [
   {
     "id": 93,
     "name": "confusion",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 25,
     "power": 50,
@@ -935,7 +935,7 @@ export const MOVES = [
   {
     "id": 94,
     "name": "psychic",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -945,7 +945,7 @@ export const MOVES = [
   {
     "id": 95,
     "name": "hypnosis",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -955,7 +955,7 @@ export const MOVES = [
   {
     "id": 96,
     "name": "meditate",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -965,7 +965,7 @@ export const MOVES = [
   {
     "id": 97,
     "name": "agility",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -975,7 +975,7 @@ export const MOVES = [
   {
     "id": 98,
     "name": "quick attack",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 40,
@@ -985,7 +985,7 @@ export const MOVES = [
   {
     "id": 99,
     "name": "rage",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 20,
@@ -995,7 +995,7 @@ export const MOVES = [
   {
     "id": 100,
     "name": "teleport",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1005,7 +1005,7 @@ export const MOVES = [
   {
     "id": 101,
     "name": "night shade",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 0,
@@ -1015,7 +1015,7 @@ export const MOVES = [
   {
     "id": 102,
     "name": "mimic",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1025,7 +1025,7 @@ export const MOVES = [
   {
     "id": 103,
     "name": "screech",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -1035,7 +1035,7 @@ export const MOVES = [
   {
     "id": 104,
     "name": "double team",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -1045,7 +1045,7 @@ export const MOVES = [
   {
     "id": 105,
     "name": "recover",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1055,7 +1055,7 @@ export const MOVES = [
   {
     "id": 106,
     "name": "harden",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1065,7 +1065,7 @@ export const MOVES = [
   {
     "id": 107,
     "name": "minimize",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1075,7 +1075,7 @@ export const MOVES = [
   {
     "id": 108,
     "name": "smokescreen",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1085,7 +1085,7 @@ export const MOVES = [
   {
     "id": 109,
     "name": "confuse ray",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1095,7 +1095,7 @@ export const MOVES = [
   {
     "id": 110,
     "name": "withdraw",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -1105,7 +1105,7 @@ export const MOVES = [
   {
     "id": 111,
     "name": "defense curl",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -1115,7 +1115,7 @@ export const MOVES = [
   {
     "id": 112,
     "name": "barrier",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1125,7 +1125,7 @@ export const MOVES = [
   {
     "id": 113,
     "name": "light screen",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1135,7 +1135,7 @@ export const MOVES = [
   {
     "id": 114,
     "name": "haze",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1145,7 +1145,7 @@ export const MOVES = [
   {
     "id": 115,
     "name": "reflect",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1155,7 +1155,7 @@ export const MOVES = [
   {
     "id": 116,
     "name": "focus energy",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1165,7 +1165,7 @@ export const MOVES = [
   {
     "id": 117,
     "name": "bide",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 0,
@@ -1175,7 +1175,7 @@ export const MOVES = [
   {
     "id": 118,
     "name": "metronome",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1185,7 +1185,7 @@ export const MOVES = [
   {
     "id": 119,
     "name": "mirror move",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1195,7 +1195,7 @@ export const MOVES = [
   {
     "id": 120,
     "name": "self-destruct",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 200,
@@ -1205,7 +1205,7 @@ export const MOVES = [
   {
     "id": 121,
     "name": "egg bomb",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 100,
@@ -1215,7 +1215,7 @@ export const MOVES = [
   {
     "id": 122,
     "name": "lick",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 30,
@@ -1225,7 +1225,7 @@ export const MOVES = [
   {
     "id": 123,
     "name": "smog",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 30,
@@ -1235,7 +1235,7 @@ export const MOVES = [
   {
     "id": 124,
     "name": "sludge",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 65,
@@ -1245,7 +1245,7 @@ export const MOVES = [
   {
     "id": 125,
     "name": "bone club",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 65,
@@ -1255,7 +1255,7 @@ export const MOVES = [
   {
     "id": 126,
     "name": "fire blast",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 110,
@@ -1265,7 +1265,7 @@ export const MOVES = [
   {
     "id": 127,
     "name": "waterfall",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -1275,7 +1275,7 @@ export const MOVES = [
   {
     "id": 128,
     "name": "clamp",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 35,
@@ -1285,7 +1285,7 @@ export const MOVES = [
   {
     "id": 129,
     "name": "swift",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 60,
@@ -1295,7 +1295,7 @@ export const MOVES = [
   {
     "id": 130,
     "name": "skull bash",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 130,
@@ -1305,7 +1305,7 @@ export const MOVES = [
   {
     "id": 131,
     "name": "spike cannon",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 20,
@@ -1315,7 +1315,7 @@ export const MOVES = [
   {
     "id": 132,
     "name": "constrict",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 10,
@@ -1325,7 +1325,7 @@ export const MOVES = [
   {
     "id": 133,
     "name": "amnesia",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1335,7 +1335,7 @@ export const MOVES = [
   {
     "id": 134,
     "name": "kinesis",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -1345,7 +1345,7 @@ export const MOVES = [
   {
     "id": 135,
     "name": "soft-boiled",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1355,7 +1355,7 @@ export const MOVES = [
   {
     "id": 136,
     "name": "high jump kick",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 130,
@@ -1365,7 +1365,7 @@ export const MOVES = [
   {
     "id": 137,
     "name": "glare",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1375,7 +1375,7 @@ export const MOVES = [
   {
     "id": 138,
     "name": "dream eater",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 100,
@@ -1385,7 +1385,7 @@ export const MOVES = [
   {
     "id": 139,
     "name": "poison gas",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -1395,7 +1395,7 @@ export const MOVES = [
   {
     "id": 140,
     "name": "barrage",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 15,
@@ -1405,7 +1405,7 @@ export const MOVES = [
   {
     "id": 141,
     "name": "leech life",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 80,
@@ -1415,7 +1415,7 @@ export const MOVES = [
   {
     "id": 142,
     "name": "lovely kiss",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1425,7 +1425,7 @@ export const MOVES = [
   {
     "id": 143,
     "name": "sky attack",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 140,
@@ -1435,7 +1435,7 @@ export const MOVES = [
   {
     "id": 144,
     "name": "transform",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1445,7 +1445,7 @@ export const MOVES = [
   {
     "id": 145,
     "name": "bubble",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 30,
     "power": 40,
@@ -1455,7 +1455,7 @@ export const MOVES = [
   {
     "id": 146,
     "name": "dizzy punch",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 70,
@@ -1465,7 +1465,7 @@ export const MOVES = [
   {
     "id": 147,
     "name": "spore",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -1475,7 +1475,7 @@ export const MOVES = [
   {
     "id": 148,
     "name": "flash",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1485,7 +1485,7 @@ export const MOVES = [
   {
     "id": 149,
     "name": "psywave",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 0,
@@ -1495,7 +1495,7 @@ export const MOVES = [
   {
     "id": 150,
     "name": "splash",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -1505,7 +1505,7 @@ export const MOVES = [
   {
     "id": 151,
     "name": "acid armor",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1515,7 +1515,7 @@ export const MOVES = [
   {
     "id": 152,
     "name": "crabhammer",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 100,
@@ -1525,7 +1525,7 @@ export const MOVES = [
   {
     "id": 153,
     "name": "explosion",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 250,
@@ -1535,7 +1535,7 @@ export const MOVES = [
   {
     "id": 154,
     "name": "fury swipes",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 18,
@@ -1545,7 +1545,7 @@ export const MOVES = [
   {
     "id": 155,
     "name": "bonemerang",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 50,
@@ -1555,7 +1555,7 @@ export const MOVES = [
   {
     "id": 156,
     "name": "rest",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1565,7 +1565,7 @@ export const MOVES = [
   {
     "id": 157,
     "name": "rock slide",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 75,
@@ -1575,7 +1575,7 @@ export const MOVES = [
   {
     "id": 158,
     "name": "hyper fang",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -1585,7 +1585,7 @@ export const MOVES = [
   {
     "id": 159,
     "name": "sharpen",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1595,7 +1595,7 @@ export const MOVES = [
   {
     "id": 160,
     "name": "conversion",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1605,7 +1605,7 @@ export const MOVES = [
   {
     "id": 161,
     "name": "tri attack",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -1615,7 +1615,7 @@ export const MOVES = [
   {
     "id": 162,
     "name": "super fang",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 0,
@@ -1625,7 +1625,7 @@ export const MOVES = [
   {
     "id": 163,
     "name": "slash",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 70,
@@ -1635,7 +1635,7 @@ export const MOVES = [
   {
     "id": 164,
     "name": "substitute",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1645,7 +1645,7 @@ export const MOVES = [
   {
     "id": 165,
     "name": "struggle",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 1,
     "power": 50,
@@ -1655,7 +1655,7 @@ export const MOVES = [
   {
     "id": 166,
     "name": "sketch",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 1,
     "power": 0,
@@ -1665,7 +1665,7 @@ export const MOVES = [
   {
     "id": 167,
     "name": "triple kick",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 10,
@@ -1675,7 +1675,7 @@ export const MOVES = [
   {
     "id": 168,
     "name": "thief",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 60,
@@ -1685,7 +1685,7 @@ export const MOVES = [
   {
     "id": 169,
     "name": "spider web",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1695,7 +1695,7 @@ export const MOVES = [
   {
     "id": 170,
     "name": "mind reader",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -1705,7 +1705,7 @@ export const MOVES = [
   {
     "id": 171,
     "name": "nightmare",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -1715,7 +1715,7 @@ export const MOVES = [
   {
     "id": 172,
     "name": "flame wheel",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 60,
@@ -1725,7 +1725,7 @@ export const MOVES = [
   {
     "id": 173,
     "name": "snore",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 50,
@@ -1735,7 +1735,7 @@ export const MOVES = [
   {
     "id": 174,
     "name": "curse",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1745,7 +1745,7 @@ export const MOVES = [
   {
     "id": 175,
     "name": "flail",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 0,
@@ -1755,7 +1755,7 @@ export const MOVES = [
   {
     "id": 176,
     "name": "conversion 2",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -1765,7 +1765,7 @@ export const MOVES = [
   {
     "id": 177,
     "name": "aeroblast",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 100,
@@ -1775,7 +1775,7 @@ export const MOVES = [
   {
     "id": 178,
     "name": "cotton spore",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -1785,7 +1785,7 @@ export const MOVES = [
   {
     "id": 179,
     "name": "reversal",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 0,
@@ -1795,7 +1795,7 @@ export const MOVES = [
   {
     "id": 180,
     "name": "spite",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1805,7 +1805,7 @@ export const MOVES = [
   {
     "id": 181,
     "name": "powder snow",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 25,
     "power": 40,
@@ -1815,7 +1815,7 @@ export const MOVES = [
   {
     "id": 182,
     "name": "protect",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1825,7 +1825,7 @@ export const MOVES = [
   {
     "id": 183,
     "name": "mach punch",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 40,
@@ -1835,7 +1835,7 @@ export const MOVES = [
   {
     "id": 184,
     "name": "scary face",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1845,7 +1845,7 @@ export const MOVES = [
   {
     "id": 185,
     "name": "feint attack",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 60,
@@ -1855,7 +1855,7 @@ export const MOVES = [
   {
     "id": 186,
     "name": "sweet kiss",
-    "type": types.FAIRY,
+    "type": TYPES.FAIRY,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1865,7 +1865,7 @@ export const MOVES = [
   {
     "id": 187,
     "name": "belly drum",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -1875,7 +1875,7 @@ export const MOVES = [
   {
     "id": 188,
     "name": "sludge bomb",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -1885,7 +1885,7 @@ export const MOVES = [
   {
     "id": 189,
     "name": "mud-slap",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 20,
@@ -1895,7 +1895,7 @@ export const MOVES = [
   {
     "id": 190,
     "name": "octazooka",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -1905,7 +1905,7 @@ export const MOVES = [
   {
     "id": 191,
     "name": "spikes",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -1915,7 +1915,7 @@ export const MOVES = [
   {
     "id": 192,
     "name": "zap cannon",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 120,
@@ -1925,7 +1925,7 @@ export const MOVES = [
   {
     "id": 193,
     "name": "foresight",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -1935,7 +1935,7 @@ export const MOVES = [
   {
     "id": 194,
     "name": "destiny bond",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -1945,7 +1945,7 @@ export const MOVES = [
   {
     "id": 195,
     "name": "perish song",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -1955,7 +1955,7 @@ export const MOVES = [
   {
     "id": 196,
     "name": "icy wind",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 55,
@@ -1965,7 +1965,7 @@ export const MOVES = [
   {
     "id": 197,
     "name": "detect",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -1975,7 +1975,7 @@ export const MOVES = [
   {
     "id": 198,
     "name": "bone rush",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 25,
@@ -1985,7 +1985,7 @@ export const MOVES = [
   {
     "id": 199,
     "name": "lock-on",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -1995,7 +1995,7 @@ export const MOVES = [
   {
     "id": 200,
     "name": "outrage",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 120,
@@ -2005,7 +2005,7 @@ export const MOVES = [
   {
     "id": 201,
     "name": "sandstorm",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2015,7 +2015,7 @@ export const MOVES = [
   {
     "id": 202,
     "name": "giga drain",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 75,
@@ -2025,7 +2025,7 @@ export const MOVES = [
   {
     "id": 203,
     "name": "endure",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2035,7 +2035,7 @@ export const MOVES = [
   {
     "id": 204,
     "name": "charm",
-    "type": types.FAIRY,
+    "type": TYPES.FAIRY,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2045,7 +2045,7 @@ export const MOVES = [
   {
     "id": 205,
     "name": "rollout",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 30,
@@ -2055,7 +2055,7 @@ export const MOVES = [
   {
     "id": 206,
     "name": "false swipe",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 40,
     "power": 40,
@@ -2065,7 +2065,7 @@ export const MOVES = [
   {
     "id": 207,
     "name": "swagger",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -2075,7 +2075,7 @@ export const MOVES = [
   {
     "id": 208,
     "name": "milk drink",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2085,7 +2085,7 @@ export const MOVES = [
   {
     "id": 209,
     "name": "spark",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 65,
@@ -2095,7 +2095,7 @@ export const MOVES = [
   {
     "id": 210,
     "name": "fury cutter",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 40,
@@ -2105,7 +2105,7 @@ export const MOVES = [
   {
     "id": 211,
     "name": "steel wing",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 70,
@@ -2115,7 +2115,7 @@ export const MOVES = [
   {
     "id": 212,
     "name": "mean look",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2125,7 +2125,7 @@ export const MOVES = [
   {
     "id": 213,
     "name": "attract",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -2135,7 +2135,7 @@ export const MOVES = [
   {
     "id": 214,
     "name": "sleep talk",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2145,7 +2145,7 @@ export const MOVES = [
   {
     "id": 215,
     "name": "heal bell",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2155,7 +2155,7 @@ export const MOVES = [
   {
     "id": 216,
     "name": "return",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 0,
@@ -2165,7 +2165,7 @@ export const MOVES = [
   {
     "id": 217,
     "name": "present",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 0,
@@ -2175,7 +2175,7 @@ export const MOVES = [
   {
     "id": 218,
     "name": "frustration",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 0,
@@ -2185,7 +2185,7 @@ export const MOVES = [
   {
     "id": 219,
     "name": "safeguard",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 25,
     "power": 0,
@@ -2195,7 +2195,7 @@ export const MOVES = [
   {
     "id": 220,
     "name": "pain split",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2205,7 +2205,7 @@ export const MOVES = [
   {
     "id": 221,
     "name": "sacred fire",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 100,
@@ -2215,7 +2215,7 @@ export const MOVES = [
   {
     "id": 222,
     "name": "magnitude",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 0,
@@ -2225,7 +2225,7 @@ export const MOVES = [
   {
     "id": 223,
     "name": "dynamic punch",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 100,
@@ -2235,7 +2235,7 @@ export const MOVES = [
   {
     "id": 224,
     "name": "megahorn",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 120,
@@ -2245,7 +2245,7 @@ export const MOVES = [
   {
     "id": 225,
     "name": "dragon breath",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 60,
@@ -2255,7 +2255,7 @@ export const MOVES = [
   {
     "id": 226,
     "name": "baton pass",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -2265,7 +2265,7 @@ export const MOVES = [
   {
     "id": 227,
     "name": "encore",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2275,7 +2275,7 @@ export const MOVES = [
   {
     "id": 228,
     "name": "pursuit",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 40,
@@ -2285,7 +2285,7 @@ export const MOVES = [
   {
     "id": 229,
     "name": "rapid spin",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 40,
     "power": 50,
@@ -2295,7 +2295,7 @@ export const MOVES = [
   {
     "id": 230,
     "name": "sweet scent",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2305,7 +2305,7 @@ export const MOVES = [
   {
     "id": 231,
     "name": "iron tail",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 100,
@@ -2315,7 +2315,7 @@ export const MOVES = [
   {
     "id": 232,
     "name": "metal claw",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 35,
     "power": 50,
@@ -2325,7 +2325,7 @@ export const MOVES = [
   {
     "id": 233,
     "name": "vital throw",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 70,
@@ -2335,7 +2335,7 @@ export const MOVES = [
   {
     "id": 234,
     "name": "morning sun",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2345,7 +2345,7 @@ export const MOVES = [
   {
     "id": 235,
     "name": "synthesis",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2355,7 +2355,7 @@ export const MOVES = [
   {
     "id": 236,
     "name": "moonlight",
-    "type": types.FAIRY,
+    "type": TYPES.FAIRY,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2365,7 +2365,7 @@ export const MOVES = [
   {
     "id": 237,
     "name": "hidden power",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 60,
@@ -2375,7 +2375,7 @@ export const MOVES = [
   {
     "id": 238,
     "name": "cross chop",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 100,
@@ -2385,7 +2385,7 @@ export const MOVES = [
   {
     "id": 239,
     "name": "twister",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 40,
@@ -2395,7 +2395,7 @@ export const MOVES = [
   {
     "id": 240,
     "name": "rain dance",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2405,7 +2405,7 @@ export const MOVES = [
   {
     "id": 241,
     "name": "sunny day",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2415,7 +2415,7 @@ export const MOVES = [
   {
     "id": 242,
     "name": "crunch",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -2425,7 +2425,7 @@ export const MOVES = [
   {
     "id": 243,
     "name": "mirror coat",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 0,
@@ -2435,7 +2435,7 @@ export const MOVES = [
   {
     "id": 244,
     "name": "psych up",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2445,7 +2445,7 @@ export const MOVES = [
   {
     "id": 245,
     "name": "extreme speed",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 80,
@@ -2455,7 +2455,7 @@ export const MOVES = [
   {
     "id": 246,
     "name": "ancient power",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 60,
@@ -2465,7 +2465,7 @@ export const MOVES = [
   {
     "id": 247,
     "name": "shadow ball",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 80,
@@ -2475,7 +2475,7 @@ export const MOVES = [
   {
     "id": 248,
     "name": "future sight",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 120,
@@ -2485,7 +2485,7 @@ export const MOVES = [
   {
     "id": 249,
     "name": "rock smash",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 40,
@@ -2495,7 +2495,7 @@ export const MOVES = [
   {
     "id": 250,
     "name": "whirlpool",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 35,
@@ -2505,7 +2505,7 @@ export const MOVES = [
   {
     "id": 251,
     "name": "beat up",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 0,
@@ -2515,7 +2515,7 @@ export const MOVES = [
   {
     "id": 252,
     "name": "fake out",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 40,
@@ -2525,7 +2525,7 @@ export const MOVES = [
   {
     "id": 253,
     "name": "uproar",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -2535,7 +2535,7 @@ export const MOVES = [
   {
     "id": 254,
     "name": "stockpile",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2545,7 +2545,7 @@ export const MOVES = [
   {
     "id": 255,
     "name": "spit up",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 0,
@@ -2555,7 +2555,7 @@ export const MOVES = [
   {
     "id": 256,
     "name": "swallow",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2565,7 +2565,7 @@ export const MOVES = [
   {
     "id": 257,
     "name": "heat wave",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 95,
@@ -2575,7 +2575,7 @@ export const MOVES = [
   {
     "id": 258,
     "name": "hail",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2585,7 +2585,7 @@ export const MOVES = [
   {
     "id": 259,
     "name": "torment",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -2595,7 +2595,7 @@ export const MOVES = [
   {
     "id": 260,
     "name": "flatter",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -2605,7 +2605,7 @@ export const MOVES = [
   {
     "id": 261,
     "name": "will-o-wisp",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -2615,7 +2615,7 @@ export const MOVES = [
   {
     "id": 262,
     "name": "memento",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2625,7 +2625,7 @@ export const MOVES = [
   {
     "id": 263,
     "name": "facade",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 70,
@@ -2635,7 +2635,7 @@ export const MOVES = [
   {
     "id": 264,
     "name": "focus punch",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 150,
@@ -2645,7 +2645,7 @@ export const MOVES = [
   {
     "id": 265,
     "name": "smelling salts",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 70,
@@ -2655,7 +2655,7 @@ export const MOVES = [
   {
     "id": 266,
     "name": "follow me",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2665,7 +2665,7 @@ export const MOVES = [
   {
     "id": 267,
     "name": "nature power",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2675,7 +2675,7 @@ export const MOVES = [
   {
     "id": 268,
     "name": "charge",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2685,7 +2685,7 @@ export const MOVES = [
   {
     "id": 269,
     "name": "taunt",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2695,7 +2695,7 @@ export const MOVES = [
   {
     "id": 270,
     "name": "helping hand",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2705,7 +2705,7 @@ export const MOVES = [
   {
     "id": 271,
     "name": "trick",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2715,7 +2715,7 @@ export const MOVES = [
   {
     "id": 272,
     "name": "role play",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2725,7 +2725,7 @@ export const MOVES = [
   {
     "id": 273,
     "name": "wish",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2735,7 +2735,7 @@ export const MOVES = [
   {
     "id": 274,
     "name": "assist",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2745,7 +2745,7 @@ export const MOVES = [
   {
     "id": 275,
     "name": "ingrain",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2755,7 +2755,7 @@ export const MOVES = [
   {
     "id": 276,
     "name": "superpower",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 120,
@@ -2765,7 +2765,7 @@ export const MOVES = [
   {
     "id": 277,
     "name": "magic coat",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -2775,7 +2775,7 @@ export const MOVES = [
   {
     "id": 278,
     "name": "recycle",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2785,7 +2785,7 @@ export const MOVES = [
   {
     "id": 279,
     "name": "revenge",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -2795,7 +2795,7 @@ export const MOVES = [
   {
     "id": 280,
     "name": "brick break",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 75,
@@ -2805,7 +2805,7 @@ export const MOVES = [
   {
     "id": 281,
     "name": "yawn",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2815,7 +2815,7 @@ export const MOVES = [
   {
     "id": 282,
     "name": "knock off",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 65,
@@ -2825,7 +2825,7 @@ export const MOVES = [
   {
     "id": 283,
     "name": "endeavor",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 0,
@@ -2835,7 +2835,7 @@ export const MOVES = [
   {
     "id": 284,
     "name": "eruption",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 150,
@@ -2845,7 +2845,7 @@ export const MOVES = [
   {
     "id": 285,
     "name": "skill swap",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2855,7 +2855,7 @@ export const MOVES = [
   {
     "id": 286,
     "name": "imprison",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2865,7 +2865,7 @@ export const MOVES = [
   {
     "id": 287,
     "name": "refresh",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2875,7 +2875,7 @@ export const MOVES = [
   {
     "id": 288,
     "name": "grudge",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -2885,7 +2885,7 @@ export const MOVES = [
   {
     "id": 289,
     "name": "snatch",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -2895,7 +2895,7 @@ export const MOVES = [
   {
     "id": 290,
     "name": "secret power",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 70,
@@ -2905,7 +2905,7 @@ export const MOVES = [
   {
     "id": 291,
     "name": "dive",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 80,
@@ -2915,7 +2915,7 @@ export const MOVES = [
   {
     "id": 292,
     "name": "arm thrust",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 15,
@@ -2925,7 +2925,7 @@ export const MOVES = [
   {
     "id": 293,
     "name": "camouflage",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2935,7 +2935,7 @@ export const MOVES = [
   {
     "id": 294,
     "name": "tail glow",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2945,7 +2945,7 @@ export const MOVES = [
   {
     "id": 295,
     "name": "luster purge",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 70,
@@ -2955,7 +2955,7 @@ export const MOVES = [
   {
     "id": 296,
     "name": "mist ball",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 70,
@@ -2965,7 +2965,7 @@ export const MOVES = [
   {
     "id": 297,
     "name": "feather dance",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -2975,7 +2975,7 @@ export const MOVES = [
   {
     "id": 298,
     "name": "teeter dance",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -2985,7 +2985,7 @@ export const MOVES = [
   {
     "id": 299,
     "name": "blaze kick",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 85,
@@ -2995,7 +2995,7 @@ export const MOVES = [
   {
     "id": 300,
     "name": "mud sport",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -3005,7 +3005,7 @@ export const MOVES = [
   {
     "id": 301,
     "name": "ice ball",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 30,
@@ -3015,7 +3015,7 @@ export const MOVES = [
   {
     "id": 302,
     "name": "needle arm",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 60,
@@ -3025,7 +3025,7 @@ export const MOVES = [
   {
     "id": 303,
     "name": "slack off",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3035,7 +3035,7 @@ export const MOVES = [
   {
     "id": 304,
     "name": "hyper voice",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -3045,7 +3045,7 @@ export const MOVES = [
   {
     "id": 305,
     "name": "poison fang",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 50,
@@ -3055,7 +3055,7 @@ export const MOVES = [
   {
     "id": 306,
     "name": "crush claw",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 75,
@@ -3065,7 +3065,7 @@ export const MOVES = [
   {
     "id": 307,
     "name": "blast burn",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 150,
@@ -3075,7 +3075,7 @@ export const MOVES = [
   {
     "id": 308,
     "name": "hydro cannon",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 150,
@@ -3085,7 +3085,7 @@ export const MOVES = [
   {
     "id": 309,
     "name": "meteor mash",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 90,
@@ -3095,7 +3095,7 @@ export const MOVES = [
   {
     "id": 310,
     "name": "astonish",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 30,
@@ -3105,7 +3105,7 @@ export const MOVES = [
   {
     "id": 311,
     "name": "weather ball",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 50,
@@ -3115,7 +3115,7 @@ export const MOVES = [
   {
     "id": 312,
     "name": "aromatherapy",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -3125,7 +3125,7 @@ export const MOVES = [
   {
     "id": 313,
     "name": "fake tears",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3135,7 +3135,7 @@ export const MOVES = [
   {
     "id": 314,
     "name": "air cutter",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.SPECIAL,
     "pp": 25,
     "power": 60,
@@ -3145,7 +3145,7 @@ export const MOVES = [
   {
     "id": 315,
     "name": "overheat",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 130,
@@ -3155,7 +3155,7 @@ export const MOVES = [
   {
     "id": 316,
     "name": "odor sleuth",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -3165,7 +3165,7 @@ export const MOVES = [
   {
     "id": 317,
     "name": "rock tomb",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 60,
@@ -3175,7 +3175,7 @@ export const MOVES = [
   {
     "id": 318,
     "name": "silver wind",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 60,
@@ -3185,7 +3185,7 @@ export const MOVES = [
   {
     "id": 319,
     "name": "metal sound",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -3195,7 +3195,7 @@ export const MOVES = [
   {
     "id": 320,
     "name": "grass whistle",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -3205,7 +3205,7 @@ export const MOVES = [
   {
     "id": 321,
     "name": "tickle",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3215,7 +3215,7 @@ export const MOVES = [
   {
     "id": 322,
     "name": "cosmic power",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3225,7 +3225,7 @@ export const MOVES = [
   {
     "id": 323,
     "name": "water spout",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 150,
@@ -3235,7 +3235,7 @@ export const MOVES = [
   {
     "id": 324,
     "name": "signal beam",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 75,
@@ -3245,7 +3245,7 @@ export const MOVES = [
   {
     "id": 325,
     "name": "shadow punch",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 60,
@@ -3255,7 +3255,7 @@ export const MOVES = [
   {
     "id": 326,
     "name": "extrasensory",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 80,
@@ -3265,7 +3265,7 @@ export const MOVES = [
   {
     "id": 327,
     "name": "sky uppercut",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 85,
@@ -3275,7 +3275,7 @@ export const MOVES = [
   {
     "id": 328,
     "name": "sand tomb",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 35,
@@ -3285,7 +3285,7 @@ export const MOVES = [
   {
     "id": 329,
     "name": "sheer cold",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 0,
@@ -3295,7 +3295,7 @@ export const MOVES = [
   {
     "id": 330,
     "name": "muddy water",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -3305,7 +3305,7 @@ export const MOVES = [
   {
     "id": 331,
     "name": "bullet seed",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 25,
@@ -3315,7 +3315,7 @@ export const MOVES = [
   {
     "id": 332,
     "name": "aerial ace",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 60,
@@ -3325,7 +3325,7 @@ export const MOVES = [
   {
     "id": 333,
     "name": "icicle spear",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 25,
@@ -3335,7 +3335,7 @@ export const MOVES = [
   {
     "id": 334,
     "name": "iron defense",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -3345,7 +3345,7 @@ export const MOVES = [
   {
     "id": 335,
     "name": "block",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -3355,7 +3355,7 @@ export const MOVES = [
   {
     "id": 336,
     "name": "howl",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -3365,7 +3365,7 @@ export const MOVES = [
   {
     "id": 337,
     "name": "dragon claw",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -3375,7 +3375,7 @@ export const MOVES = [
   {
     "id": 338,
     "name": "frenzy plant",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 150,
@@ -3385,7 +3385,7 @@ export const MOVES = [
   {
     "id": 339,
     "name": "bulk up",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3395,7 +3395,7 @@ export const MOVES = [
   {
     "id": 340,
     "name": "bounce",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 85,
@@ -3405,7 +3405,7 @@ export const MOVES = [
   {
     "id": 341,
     "name": "mud shot",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 55,
@@ -3415,7 +3415,7 @@ export const MOVES = [
   {
     "id": 342,
     "name": "poison tail",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 50,
@@ -3425,7 +3425,7 @@ export const MOVES = [
   {
     "id": 343,
     "name": "covet",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 60,
@@ -3435,7 +3435,7 @@ export const MOVES = [
   {
     "id": 344,
     "name": "volt tackle",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 120,
@@ -3445,7 +3445,7 @@ export const MOVES = [
   {
     "id": 345,
     "name": "magical leaf",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 60,
@@ -3455,7 +3455,7 @@ export const MOVES = [
   {
     "id": 346,
     "name": "water sport",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -3465,7 +3465,7 @@ export const MOVES = [
   {
     "id": 347,
     "name": "calm mind",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3475,7 +3475,7 @@ export const MOVES = [
   {
     "id": 348,
     "name": "leaf blade",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 90,
@@ -3485,7 +3485,7 @@ export const MOVES = [
   {
     "id": 349,
     "name": "dragon dance",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3495,7 +3495,7 @@ export const MOVES = [
   {
     "id": 350,
     "name": "rock blast",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 25,
@@ -3505,7 +3505,7 @@ export const MOVES = [
   {
     "id": 351,
     "name": "shock wave",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 60,
@@ -3515,7 +3515,7 @@ export const MOVES = [
   {
     "id": 352,
     "name": "water pulse",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 60,
@@ -3525,7 +3525,7 @@ export const MOVES = [
   {
     "id": 353,
     "name": "doom desire",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 140,
@@ -3535,7 +3535,7 @@ export const MOVES = [
   {
     "id": 354,
     "name": "psycho boost",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 140,
@@ -3545,7 +3545,7 @@ export const MOVES = [
   {
     "id": 355,
     "name": "roost",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3555,7 +3555,7 @@ export const MOVES = [
   {
     "id": 356,
     "name": "gravity",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -3565,7 +3565,7 @@ export const MOVES = [
   {
     "id": 357,
     "name": "miracle eye",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 40,
     "power": 0,
@@ -3575,7 +3575,7 @@ export const MOVES = [
   {
     "id": 358,
     "name": "wake-up slap",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 70,
@@ -3585,7 +3585,7 @@ export const MOVES = [
   {
     "id": 359,
     "name": "hammer arm",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 100,
@@ -3595,7 +3595,7 @@ export const MOVES = [
   {
     "id": 360,
     "name": "gyro ball",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 0,
@@ -3605,7 +3605,7 @@ export const MOVES = [
   {
     "id": 361,
     "name": "healing wish",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3615,7 +3615,7 @@ export const MOVES = [
   {
     "id": 362,
     "name": "brine",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -3625,7 +3625,7 @@ export const MOVES = [
   {
     "id": 363,
     "name": "natural gift",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 0,
@@ -3635,7 +3635,7 @@ export const MOVES = [
   {
     "id": 364,
     "name": "feint",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 30,
@@ -3645,7 +3645,7 @@ export const MOVES = [
   {
     "id": 365,
     "name": "pluck",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 60,
@@ -3655,7 +3655,7 @@ export const MOVES = [
   {
     "id": 366,
     "name": "tailwind",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -3665,7 +3665,7 @@ export const MOVES = [
   {
     "id": 367,
     "name": "acupressure",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -3675,7 +3675,7 @@ export const MOVES = [
   {
     "id": 368,
     "name": "metal burst",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 0,
@@ -3685,7 +3685,7 @@ export const MOVES = [
   {
     "id": 369,
     "name": "u-turn",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 70,
@@ -3695,7 +3695,7 @@ export const MOVES = [
   {
     "id": 370,
     "name": "close combat",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 120,
@@ -3705,7 +3705,7 @@ export const MOVES = [
   {
     "id": 371,
     "name": "payback",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 50,
@@ -3715,7 +3715,7 @@ export const MOVES = [
   {
     "id": 372,
     "name": "assurance",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -3725,7 +3725,7 @@ export const MOVES = [
   {
     "id": 373,
     "name": "embargo",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -3735,7 +3735,7 @@ export const MOVES = [
   {
     "id": 374,
     "name": "fling",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 0,
@@ -3745,7 +3745,7 @@ export const MOVES = [
   {
     "id": 375,
     "name": "psycho shift",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3755,7 +3755,7 @@ export const MOVES = [
   {
     "id": 376,
     "name": "trump card",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 0,
@@ -3765,7 +3765,7 @@ export const MOVES = [
   {
     "id": 377,
     "name": "heal block",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -3775,7 +3775,7 @@ export const MOVES = [
   {
     "id": 378,
     "name": "wring out",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 0,
@@ -3785,7 +3785,7 @@ export const MOVES = [
   {
     "id": 379,
     "name": "power trick",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3795,7 +3795,7 @@ export const MOVES = [
   {
     "id": 380,
     "name": "gastro acid",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3805,7 +3805,7 @@ export const MOVES = [
   {
     "id": 381,
     "name": "lucky chant",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -3815,7 +3815,7 @@ export const MOVES = [
   {
     "id": 382,
     "name": "me first",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3825,7 +3825,7 @@ export const MOVES = [
   {
     "id": 383,
     "name": "copycat",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3835,7 +3835,7 @@ export const MOVES = [
   {
     "id": 384,
     "name": "power swap",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3845,7 +3845,7 @@ export const MOVES = [
   {
     "id": 385,
     "name": "guard swap",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3855,7 +3855,7 @@ export const MOVES = [
   {
     "id": 386,
     "name": "punishment",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 0,
@@ -3865,7 +3865,7 @@ export const MOVES = [
   {
     "id": 387,
     "name": "last resort",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 140,
@@ -3875,7 +3875,7 @@ export const MOVES = [
   {
     "id": 388,
     "name": "worry seed",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3885,7 +3885,7 @@ export const MOVES = [
   {
     "id": 389,
     "name": "sucker punch",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 70,
@@ -3895,7 +3895,7 @@ export const MOVES = [
   {
     "id": 390,
     "name": "toxic spikes",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3905,7 +3905,7 @@ export const MOVES = [
   {
     "id": 391,
     "name": "heart swap",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3915,7 +3915,7 @@ export const MOVES = [
   {
     "id": 392,
     "name": "aqua ring",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3925,7 +3925,7 @@ export const MOVES = [
   {
     "id": 393,
     "name": "magnet rise",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -3935,7 +3935,7 @@ export const MOVES = [
   {
     "id": 394,
     "name": "flare blitz",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 120,
@@ -3945,7 +3945,7 @@ export const MOVES = [
   {
     "id": 395,
     "name": "force palm",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -3955,7 +3955,7 @@ export const MOVES = [
   {
     "id": 396,
     "name": "aura sphere",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 80,
@@ -3965,7 +3965,7 @@ export const MOVES = [
   {
     "id": 397,
     "name": "rock polish",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -3975,7 +3975,7 @@ export const MOVES = [
   {
     "id": 398,
     "name": "poison jab",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 80,
@@ -3985,7 +3985,7 @@ export const MOVES = [
   {
     "id": 399,
     "name": "dark pulse",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 80,
@@ -3995,7 +3995,7 @@ export const MOVES = [
   {
     "id": 400,
     "name": "night slash",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 70,
@@ -4005,7 +4005,7 @@ export const MOVES = [
   {
     "id": 401,
     "name": "aqua tail",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 90,
@@ -4015,7 +4015,7 @@ export const MOVES = [
   {
     "id": 402,
     "name": "seed bomb",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -4025,7 +4025,7 @@ export const MOVES = [
   {
     "id": 403,
     "name": "air slash",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 75,
@@ -4035,7 +4035,7 @@ export const MOVES = [
   {
     "id": 404,
     "name": "x-scissor",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -4045,7 +4045,7 @@ export const MOVES = [
   {
     "id": 405,
     "name": "bug buzz",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -4055,7 +4055,7 @@ export const MOVES = [
   {
     "id": 406,
     "name": "dragon pulse",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 85,
@@ -4065,7 +4065,7 @@ export const MOVES = [
   {
     "id": 407,
     "name": "dragon rush",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 100,
@@ -4075,7 +4075,7 @@ export const MOVES = [
   {
     "id": 408,
     "name": "power gem",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 80,
@@ -4085,7 +4085,7 @@ export const MOVES = [
   {
     "id": 409,
     "name": "drain punch",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 75,
@@ -4095,7 +4095,7 @@ export const MOVES = [
   {
     "id": 410,
     "name": "vacuum wave",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.SPECIAL,
     "pp": 30,
     "power": 40,
@@ -4105,7 +4105,7 @@ export const MOVES = [
   {
     "id": 411,
     "name": "focus blast",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 120,
@@ -4115,7 +4115,7 @@ export const MOVES = [
   {
     "id": 412,
     "name": "energy ball",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -4125,7 +4125,7 @@ export const MOVES = [
   {
     "id": 413,
     "name": "brave bird",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 120,
@@ -4135,7 +4135,7 @@ export const MOVES = [
   {
     "id": 414,
     "name": "earth power",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 90,
@@ -4145,7 +4145,7 @@ export const MOVES = [
   {
     "id": 415,
     "name": "switcheroo",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4155,7 +4155,7 @@ export const MOVES = [
   {
     "id": 416,
     "name": "giga impact",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 150,
@@ -4165,7 +4165,7 @@ export const MOVES = [
   {
     "id": 417,
     "name": "nasty plot",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -4175,7 +4175,7 @@ export const MOVES = [
   {
     "id": 418,
     "name": "bullet punch",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 40,
@@ -4185,7 +4185,7 @@ export const MOVES = [
   {
     "id": 419,
     "name": "avalanche",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -4195,7 +4195,7 @@ export const MOVES = [
   {
     "id": 420,
     "name": "ice shard",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 40,
@@ -4205,7 +4205,7 @@ export const MOVES = [
   {
     "id": 421,
     "name": "shadow claw",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 70,
@@ -4215,7 +4215,7 @@ export const MOVES = [
   {
     "id": 422,
     "name": "thunder fang",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 65,
@@ -4225,7 +4225,7 @@ export const MOVES = [
   {
     "id": 423,
     "name": "ice fang",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 65,
@@ -4235,7 +4235,7 @@ export const MOVES = [
   {
     "id": 424,
     "name": "fire fang",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 65,
@@ -4245,7 +4245,7 @@ export const MOVES = [
   {
     "id": 425,
     "name": "shadow sneak",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.PHYSICAL,
     "pp": 30,
     "power": 40,
@@ -4255,7 +4255,7 @@ export const MOVES = [
   {
     "id": 426,
     "name": "mud bomb",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -4265,7 +4265,7 @@ export const MOVES = [
   {
     "id": 427,
     "name": "psycho cut",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 70,
@@ -4275,7 +4275,7 @@ export const MOVES = [
   {
     "id": 428,
     "name": "zen headbutt",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -4285,7 +4285,7 @@ export const MOVES = [
   {
     "id": 429,
     "name": "mirror shot",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -4295,7 +4295,7 @@ export const MOVES = [
   {
     "id": 430,
     "name": "flash cannon",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -4305,7 +4305,7 @@ export const MOVES = [
   {
     "id": 431,
     "name": "rock climb",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 90,
@@ -4315,7 +4315,7 @@ export const MOVES = [
   {
     "id": 432,
     "name": "defog",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -4325,7 +4325,7 @@ export const MOVES = [
   {
     "id": 433,
     "name": "trick room",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 5,
     "power": 0,
@@ -4335,7 +4335,7 @@ export const MOVES = [
   {
     "id": 434,
     "name": "draco meteor",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 130,
@@ -4345,7 +4345,7 @@ export const MOVES = [
   {
     "id": 435,
     "name": "discharge",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 80,
@@ -4355,7 +4355,7 @@ export const MOVES = [
   {
     "id": 436,
     "name": "lava plume",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 80,
@@ -4365,7 +4365,7 @@ export const MOVES = [
   {
     "id": 437,
     "name": "leaf storm",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 130,
@@ -4375,7 +4375,7 @@ export const MOVES = [
   {
     "id": 438,
     "name": "power whip",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 120,
@@ -4385,7 +4385,7 @@ export const MOVES = [
   {
     "id": 439,
     "name": "rock wrecker",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 150,
@@ -4395,7 +4395,7 @@ export const MOVES = [
   {
     "id": 440,
     "name": "cross poison",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 70,
@@ -4405,7 +4405,7 @@ export const MOVES = [
   {
     "id": 441,
     "name": "gunk shot",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 120,
@@ -4415,7 +4415,7 @@ export const MOVES = [
   {
     "id": 442,
     "name": "iron head",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 80,
@@ -4425,7 +4425,7 @@ export const MOVES = [
   {
     "id": 443,
     "name": "magnet bomb",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 60,
@@ -4435,7 +4435,7 @@ export const MOVES = [
   {
     "id": 444,
     "name": "stone edge",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 100,
@@ -4445,7 +4445,7 @@ export const MOVES = [
   {
     "id": 445,
     "name": "captivate",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -4455,7 +4455,7 @@ export const MOVES = [
   {
     "id": 446,
     "name": "stealth rock",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -4465,7 +4465,7 @@ export const MOVES = [
   {
     "id": 447,
     "name": "grass knot",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 0,
@@ -4475,7 +4475,7 @@ export const MOVES = [
   {
     "id": 448,
     "name": "chatter",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 65,
@@ -4485,7 +4485,7 @@ export const MOVES = [
   {
     "id": 449,
     "name": "judgment",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 100,
@@ -4495,7 +4495,7 @@ export const MOVES = [
   {
     "id": 450,
     "name": "bug bite",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 60,
@@ -4505,7 +4505,7 @@ export const MOVES = [
   {
     "id": 451,
     "name": "charge beam",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 50,
@@ -4515,7 +4515,7 @@ export const MOVES = [
   {
     "id": 452,
     "name": "wood hammer",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 120,
@@ -4525,7 +4525,7 @@ export const MOVES = [
   {
     "id": 453,
     "name": "aqua jet",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 40,
@@ -4535,7 +4535,7 @@ export const MOVES = [
   {
     "id": 454,
     "name": "attack order",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 90,
@@ -4545,7 +4545,7 @@ export const MOVES = [
   {
     "id": 455,
     "name": "defend order",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4555,7 +4555,7 @@ export const MOVES = [
   {
     "id": 456,
     "name": "heal order",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4565,7 +4565,7 @@ export const MOVES = [
   {
     "id": 457,
     "name": "head smash",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 150,
@@ -4575,7 +4575,7 @@ export const MOVES = [
   {
     "id": 458,
     "name": "double hit",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 35,
@@ -4585,7 +4585,7 @@ export const MOVES = [
   {
     "id": 459,
     "name": "roar of time",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 150,
@@ -4595,7 +4595,7 @@ export const MOVES = [
   {
     "id": 460,
     "name": "spacial rend",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 100,
@@ -4605,7 +4605,7 @@ export const MOVES = [
   {
     "id": 461,
     "name": "lunar dance",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4615,7 +4615,7 @@ export const MOVES = [
   {
     "id": 462,
     "name": "crush grip",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 0,
@@ -4625,7 +4625,7 @@ export const MOVES = [
   {
     "id": 463,
     "name": "magma storm",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 100,
@@ -4635,7 +4635,7 @@ export const MOVES = [
   {
     "id": 464,
     "name": "dark void",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4645,7 +4645,7 @@ export const MOVES = [
   {
     "id": 465,
     "name": "seed flare",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 120,
@@ -4655,7 +4655,7 @@ export const MOVES = [
   {
     "id": 466,
     "name": "ominous wind",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 60,
@@ -4665,7 +4665,7 @@ export const MOVES = [
   {
     "id": 467,
     "name": "shadow force",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 120,
@@ -4675,7 +4675,7 @@ export const MOVES = [
   {
     "id": 468,
     "name": "hone claws",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -4685,7 +4685,7 @@ export const MOVES = [
   {
     "id": 469,
     "name": "wide guard",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4695,7 +4695,7 @@ export const MOVES = [
   {
     "id": 470,
     "name": "guard split",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4705,7 +4705,7 @@ export const MOVES = [
   {
     "id": 471,
     "name": "power split",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4715,7 +4715,7 @@ export const MOVES = [
   {
     "id": 472,
     "name": "wonder room",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4725,7 +4725,7 @@ export const MOVES = [
   {
     "id": 473,
     "name": "psyshock",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -4735,7 +4735,7 @@ export const MOVES = [
   {
     "id": 474,
     "name": "venoshock",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -4745,7 +4745,7 @@ export const MOVES = [
   {
     "id": 475,
     "name": "autotomize",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -4755,7 +4755,7 @@ export const MOVES = [
   {
     "id": 476,
     "name": "rage powder",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -4765,7 +4765,7 @@ export const MOVES = [
   {
     "id": 477,
     "name": "telekinesis",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -4775,7 +4775,7 @@ export const MOVES = [
   {
     "id": 478,
     "name": "magic room",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -4785,7 +4785,7 @@ export const MOVES = [
   {
     "id": 479,
     "name": "smack down",
-    "type": types.ROCK,
+    "type": TYPES.ROCK,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 50,
@@ -4795,7 +4795,7 @@ export const MOVES = [
   {
     "id": 480,
     "name": "storm throw",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -4805,7 +4805,7 @@ export const MOVES = [
   {
     "id": 481,
     "name": "flame burst",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 70,
@@ -4815,7 +4815,7 @@ export const MOVES = [
   {
     "id": 482,
     "name": "sludge wave",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 95,
@@ -4825,7 +4825,7 @@ export const MOVES = [
   {
     "id": 483,
     "name": "quiver dance",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -4835,7 +4835,7 @@ export const MOVES = [
   {
     "id": 484,
     "name": "heavy slam",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 0,
@@ -4845,7 +4845,7 @@ export const MOVES = [
   {
     "id": 485,
     "name": "synchronoise",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 120,
@@ -4855,7 +4855,7 @@ export const MOVES = [
   {
     "id": 486,
     "name": "electro ball",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 0,
@@ -4865,7 +4865,7 @@ export const MOVES = [
   {
     "id": 487,
     "name": "soak",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -4875,7 +4875,7 @@ export const MOVES = [
   {
     "id": 488,
     "name": "flame charge",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 50,
@@ -4885,7 +4885,7 @@ export const MOVES = [
   {
     "id": 489,
     "name": "coil",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.STATUS,
     "pp": 20,
     "power": 0,
@@ -4895,7 +4895,7 @@ export const MOVES = [
   {
     "id": 490,
     "name": "low sweep",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 65,
@@ -4905,7 +4905,7 @@ export const MOVES = [
   {
     "id": 491,
     "name": "acid spray",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 40,
@@ -4915,7 +4915,7 @@ export const MOVES = [
   {
     "id": 492,
     "name": "foul play",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 95,
@@ -4925,7 +4925,7 @@ export const MOVES = [
   {
     "id": 493,
     "name": "simple beam",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -4935,7 +4935,7 @@ export const MOVES = [
   {
     "id": 494,
     "name": "entrainment",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -4945,7 +4945,7 @@ export const MOVES = [
   {
     "id": 495,
     "name": "after you",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -4955,7 +4955,7 @@ export const MOVES = [
   {
     "id": 496,
     "name": "round",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 60,
@@ -4965,7 +4965,7 @@ export const MOVES = [
   {
     "id": 497,
     "name": "echoed voice",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 40,
@@ -4975,7 +4975,7 @@ export const MOVES = [
   {
     "id": 498,
     "name": "chip away",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 70,
@@ -4985,7 +4985,7 @@ export const MOVES = [
   {
     "id": 499,
     "name": "clear smog",
-    "type": types.POISON,
+    "type": TYPES.POISON,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 50,
@@ -4995,7 +4995,7 @@ export const MOVES = [
   {
     "id": 500,
     "name": "stored power",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 20,
@@ -5005,7 +5005,7 @@ export const MOVES = [
   {
     "id": 501,
     "name": "quick guard",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -5015,7 +5015,7 @@ export const MOVES = [
   {
     "id": 502,
     "name": "ally switch",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -5025,7 +5025,7 @@ export const MOVES = [
   {
     "id": 503,
     "name": "scald",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 80,
@@ -5035,7 +5035,7 @@ export const MOVES = [
   {
     "id": 504,
     "name": "shell smash",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -5045,7 +5045,7 @@ export const MOVES = [
   {
     "id": 505,
     "name": "heal pulse",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -5055,7 +5055,7 @@ export const MOVES = [
   {
     "id": 506,
     "name": "hex",
-    "type": types.GHOST,
+    "type": TYPES.GHOST,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -5065,7 +5065,7 @@ export const MOVES = [
   {
     "id": 507,
     "name": "sky drop",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -5075,7 +5075,7 @@ export const MOVES = [
   {
     "id": 508,
     "name": "shift gear",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -5085,7 +5085,7 @@ export const MOVES = [
   {
     "id": 509,
     "name": "circle throw",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -5095,7 +5095,7 @@ export const MOVES = [
   {
     "id": 510,
     "name": "incinerate",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 60,
@@ -5105,7 +5105,7 @@ export const MOVES = [
   {
     "id": 511,
     "name": "quash",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -5115,7 +5115,7 @@ export const MOVES = [
   {
     "id": 512,
     "name": "acrobatics",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 55,
@@ -5125,7 +5125,7 @@ export const MOVES = [
   {
     "id": 513,
     "name": "reflect type",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -5135,7 +5135,7 @@ export const MOVES = [
   {
     "id": 514,
     "name": "retaliate",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 70,
@@ -5145,7 +5145,7 @@ export const MOVES = [
   {
     "id": 515,
     "name": "final gambit",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 0,
@@ -5155,7 +5155,7 @@ export const MOVES = [
   {
     "id": 516,
     "name": "bestow",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 15,
     "power": 0,
@@ -5165,7 +5165,7 @@ export const MOVES = [
   {
     "id": 517,
     "name": "inferno",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 100,
@@ -5175,7 +5175,7 @@ export const MOVES = [
   {
     "id": 518,
     "name": "water pledge",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -5185,7 +5185,7 @@ export const MOVES = [
   {
     "id": 519,
     "name": "fire pledge",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -5195,7 +5195,7 @@ export const MOVES = [
   {
     "id": 520,
     "name": "grass pledge",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -5205,7 +5205,7 @@ export const MOVES = [
   {
     "id": 521,
     "name": "volt switch",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 70,
@@ -5215,7 +5215,7 @@ export const MOVES = [
   {
     "id": 522,
     "name": "struggle bug",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.SPECIAL,
     "pp": 20,
     "power": 50,
@@ -5225,7 +5225,7 @@ export const MOVES = [
   {
     "id": 523,
     "name": "bulldoze",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 60,
@@ -5235,7 +5235,7 @@ export const MOVES = [
   {
     "id": 524,
     "name": "frost breath",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 60,
@@ -5245,7 +5245,7 @@ export const MOVES = [
   {
     "id": 525,
     "name": "dragon tail",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 60,
@@ -5255,7 +5255,7 @@ export const MOVES = [
   {
     "id": 526,
     "name": "work up",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.STATUS,
     "pp": 30,
     "power": 0,
@@ -5265,7 +5265,7 @@ export const MOVES = [
   {
     "id": 527,
     "name": "electroweb",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 55,
@@ -5275,7 +5275,7 @@ export const MOVES = [
   {
     "id": 528,
     "name": "wild charge",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 90,
@@ -5285,7 +5285,7 @@ export const MOVES = [
   {
     "id": 529,
     "name": "drill run",
-    "type": types.GROUND,
+    "type": TYPES.GROUND,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 80,
@@ -5295,7 +5295,7 @@ export const MOVES = [
   {
     "id": 530,
     "name": "dual chop",
-    "type": types.DRAGON,
+    "type": TYPES.DRAGON,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 40,
@@ -5305,7 +5305,7 @@ export const MOVES = [
   {
     "id": 531,
     "name": "heart stamp",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.PHYSICAL,
     "pp": 25,
     "power": 60,
@@ -5315,7 +5315,7 @@ export const MOVES = [
   {
     "id": 532,
     "name": "horn leech",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 75,
@@ -5325,7 +5325,7 @@ export const MOVES = [
   {
     "id": 533,
     "name": "sacred sword",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 90,
@@ -5335,7 +5335,7 @@ export const MOVES = [
   {
     "id": 534,
     "name": "razor shell",
-    "type": types.WATER,
+    "type": TYPES.WATER,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 75,
@@ -5345,7 +5345,7 @@ export const MOVES = [
   {
     "id": 535,
     "name": "heat crash",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 0,
@@ -5355,7 +5355,7 @@ export const MOVES = [
   {
     "id": 536,
     "name": "leaf tornado",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -5365,7 +5365,7 @@ export const MOVES = [
   {
     "id": 537,
     "name": "steamroller",
-    "type": types.BUG,
+    "type": TYPES.BUG,
     "category": definitions.PHYSICAL,
     "pp": 20,
     "power": 65,
@@ -5375,7 +5375,7 @@ export const MOVES = [
   {
     "id": 538,
     "name": "cotton guard",
-    "type": types.GRASS,
+    "type": TYPES.GRASS,
     "category": definitions.STATUS,
     "pp": 10,
     "power": 0,
@@ -5385,7 +5385,7 @@ export const MOVES = [
   {
     "id": 539,
     "name": "night daze",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 85,
@@ -5395,7 +5395,7 @@ export const MOVES = [
   {
     "id": 540,
     "name": "psystrike",
-    "type": types.PSYCHIC,
+    "type": TYPES.PSYCHIC,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 100,
@@ -5405,7 +5405,7 @@ export const MOVES = [
   {
     "id": 541,
     "name": "tail slap",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 25,
@@ -5415,7 +5415,7 @@ export const MOVES = [
   {
     "id": 542,
     "name": "hurricane",
-    "type": types.FLYING,
+    "type": TYPES.FLYING,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 110,
@@ -5425,7 +5425,7 @@ export const MOVES = [
   {
     "id": 543,
     "name": "head charge",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 120,
@@ -5435,7 +5435,7 @@ export const MOVES = [
   {
     "id": 544,
     "name": "gear grind",
-    "type": types.STEEL,
+    "type": TYPES.STEEL,
     "category": definitions.PHYSICAL,
     "pp": 15,
     "power": 50,
@@ -5445,7 +5445,7 @@ export const MOVES = [
   {
     "id": 545,
     "name": "searing shot",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 100,
@@ -5455,7 +5455,7 @@ export const MOVES = [
   {
     "id": 546,
     "name": "techno blast",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 120,
@@ -5465,7 +5465,7 @@ export const MOVES = [
   {
     "id": 547,
     "name": "relic song",
-    "type": types.NORMAL,
+    "type": TYPES.NORMAL,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 75,
@@ -5475,7 +5475,7 @@ export const MOVES = [
   {
     "id": 548,
     "name": "secret sword",
-    "type": types.FIGHTING,
+    "type": TYPES.FIGHTING,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 85,
@@ -5485,7 +5485,7 @@ export const MOVES = [
   {
     "id": 549,
     "name": "glaciate",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 65,
@@ -5495,7 +5495,7 @@ export const MOVES = [
   {
     "id": 550,
     "name": "bolt strike",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 130,
@@ -5505,7 +5505,7 @@ export const MOVES = [
   {
     "id": 551,
     "name": "blue flare",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 130,
@@ -5515,7 +5515,7 @@ export const MOVES = [
   {
     "id": 552,
     "name": "fiery dance",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 10,
     "power": 80,
@@ -5525,7 +5525,7 @@ export const MOVES = [
   {
     "id": 553,
     "name": "freeze shock",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 140,
@@ -5535,7 +5535,7 @@ export const MOVES = [
   {
     "id": 554,
     "name": "ice burn",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 140,
@@ -5545,7 +5545,7 @@ export const MOVES = [
   {
     "id": 555,
     "name": "snarl",
-    "type": types.DARK,
+    "type": TYPES.DARK,
     "category": definitions.SPECIAL,
     "pp": 15,
     "power": 55,
@@ -5555,7 +5555,7 @@ export const MOVES = [
   {
     "id": 556,
     "name": "icicle crash",
-    "type": types.ICE,
+    "type": TYPES.ICE,
     "category": definitions.PHYSICAL,
     "pp": 10,
     "power": 85,
@@ -5565,7 +5565,7 @@ export const MOVES = [
   {
     "id": 557,
     "name": "v-create",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 180,
@@ -5575,7 +5575,7 @@ export const MOVES = [
   {
     "id": 558,
     "name": "fusion flare",
-    "type": types.FIRE,
+    "type": TYPES.FIRE,
     "category": definitions.SPECIAL,
     "pp": 5,
     "power": 100,
@@ -5585,7 +5585,7 @@ export const MOVES = [
   {
     "id": 559,
     "name": "fusion bolt",
-    "type": types.ELECTRIC,
+    "type": TYPES.ELECTRIC,
     "category": definitions.PHYSICAL,
     "pp": 5,
     "power": 100,
