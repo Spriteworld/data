@@ -84,48 +84,34 @@ describe('New Types get added across generations', () => {
 });
 
 describe('getTypeEffectiveness against double typings', () => {
-  test('ground move against a steel/rock type is quad effective', () => {
-    expect(getTypeEffectiveness(TYPES.GROUND, [TYPES.STEEL, TYPES.ROCK], gen_6)).toBe(4);
-  });
-  test('flying move against a bug/grass type is quad effective', () => {
-    expect(getTypeEffectiveness(TYPES.FLYING, [TYPES.BUG, TYPES.GRASS], gen_6)).toBe(4);
-  });
-
-  test('ground move against a electric/water type is super effective', () => {
-    expect(getTypeEffectiveness(TYPES.GROUND, [TYPES.ELECTRIC, TYPES.WATER], gen_6)).toBe(2);
-  });
-
-  test('grass move against a water/flying type is normally effective', () => {
-    expect(getTypeEffectiveness(TYPES.GRASS, [TYPES.WATER, TYPES.FLYING], gen_6)).toBe(1);
-  });
-
-  test('bug move against a dragon/flying type is not very effective', () => {
-    expect(getTypeEffectiveness(TYPES.BUG, [TYPES.DRAGON, TYPES.FLYING], gen_6)).toBe(0.5);
-  });
-
-  test('fighting move against a psychic/flying type is not very effective', () => {
-    expect(getTypeEffectiveness(TYPES.FIGHTING, [TYPES.PSYCHIC, TYPES.FLYING], gen_6)).toBe(0.25);
-  });
-
-  test('electric move against a water/ground type is not effective', () => {
-    expect(getTypeEffectiveness(TYPES.ELECTRIC, [TYPES.WATER, TYPES.GROUND], gen_6)).toBe(0);
+  let typeChecks = [
+    /** ATTACK_TYPE, DEFENSE_TYPES, GEN[1|2|6], expectation[0|0.25|0.5|1|2|4]  */
+    [TYPES.GROUND, [TYPES.STEEL, TYPES.ROCK], gen_6, 4],
+    [TYPES.FLYING, [TYPES.BUG, TYPES.GRASS], gen_6, 4],
+    [TYPES.GROUND, [TYPES.ELECTRIC, TYPES.WATER], gen_6, 2],
+    [TYPES.GRASS, [TYPES.WATER, TYPES.FLYING], gen_6, 1],
+    [TYPES.BUG, [TYPES.DRAGON, TYPES.FLYING], gen_6, 0.5],
+    [TYPES.FIGHTING, [TYPES.PSYCHIC, TYPES.FLYING], gen_6, 0.25],
+    [TYPES.ELECTRIC, [TYPES.WATER, TYPES.GROUND], gen_6, 0],
+  ];
+  typeChecks.forEach(check => {
+    test('${check[0]} move against a ${check[1][0]}/${check[1][1]} type is ${check[3]}x effective', () => {
+      expect(getTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
+    });
   });
 });
 
 describe('getTypeEffectiveness against single typings', () => {
-  test('water move against a rock type is super effective', () => {
-    expect(getTypeEffectiveness(TYPES.WATER, [TYPES.ROCK], gen_6)).toBe(2);
-  });
-
-  test('normal move against a flying type is normally effective', () => {
-    expect(getTypeEffectiveness(TYPES.NORMAL, [TYPES.FLYING], gen_6)).toBe(1);
-  });
-
-  test('psychic move against a psychic type is not very effective', () => {
-    expect(getTypeEffectiveness(TYPES.PSYCHIC, [TYPES.PSYCHIC], gen_6)).toBe(0.5);
-  });
-
-  test('dragon move against a fairy type is not effective', () => {
-    expect(getTypeEffectiveness(TYPES.DRAGON, [TYPES.FAIRY], gen_6)).toBe(0);
+  let typeChecks = [
+    /** ATTACK_TYPE, DEFENSE_TYPES, GEN[1|2|6], expectation[0|0.25|0.5|1|2|4]  */
+    [TYPES.WATER, [TYPES.ROCK], gen_6, 2],
+    [TYPES.NORMAL, [TYPES.FLYING], gen_6, 1],
+    [TYPES.PSYCHIC, [TYPES.PSYCHIC], gen_6, 0.5],
+    [TYPES.DRAGON, [TYPES.FAIRY], gen_6, 0],
+  ];
+  typeChecks.forEach(check => {
+    test('${check[0]} move against a ${check[1][0]} type is ${check[3]}x effective', () => {
+      expect(getTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
+    });
   });
 });
