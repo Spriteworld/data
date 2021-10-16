@@ -1,10 +1,15 @@
 import * as TYPES from '../moves/definitions';
-import { getMovesByGen } from '../moves/index';
+import { getMovesByGen, getMovesByGameId } from '../moves/index';
 
 
 export class Movedex {
   constructor(gameId) {
-    this.movedex = getMovesByGen(gameId);
+    if (typeof gameId === 'string') {
+      this.movedex = getMovesByGameId(gameId);
+    }
+    if (typeof gameId === 'number') {
+      this.movedex = getMovesByGen(gameId);
+    }
 
 
   }
@@ -38,6 +43,17 @@ export class Movedex {
     });
   }
 
+  getMovesForPokemon(moves) {
+    if (typeof moves === 'undefined' || moves.length === 0) {
+      throw 'Moveset is invalid!';
+    }
+
+    return moves.map(move => {
+      move.move = this.getMoveByName(move.name);
+
+      return move;
+    });
+  }
 
   checkMoveName(type) {
     if (Object.values(TYPES).includes(type) === false) {

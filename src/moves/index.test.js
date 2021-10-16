@@ -6,7 +6,8 @@ import * as gen_5 from './gen_5';
 import * as gen_6 from './gen_6';
 import * as gen_7 from './gen_7';
 import * as gen_8 from './gen_8';
-import { getMovesByGen } from './index';
+import { getMovesByGen, getMovesByGameId } from './index';
+import { GAMES } from '../index';
 
 describe('moves can be gotten by generation', () => {
   test('can get gen 1 moveset', () => {
@@ -36,4 +37,52 @@ describe('moves can be gotten by generation', () => {
   test('can get gen 1000 moveset', () => {
     expect(() => getMovesByGen(1000)).toThrow('Gen "1000" is invalid!');
   });
-})
+});
+
+
+describe('getMovesByGameId works', () => {
+  let expected = {
+    [GAMES.POKEMON_BLUE]: gen_1.MOVES,
+    [GAMES.POKEMON_RED]: gen_1.MOVES,
+    [GAMES.POKEMON_GREEN]: gen_1.MOVES,
+    [GAMES.POKEMON_YELLOW]: gen_1.MOVES,
+    [GAMES.POKEMON_GOLD]: gen_2.MOVES,
+    [GAMES.POKEMON_SILVER]: gen_2.MOVES,
+    [GAMES.POKEMON_CRYSTAL]: gen_2.MOVES,
+    [GAMES.POKEMON_RUBY]: gen_3.MOVES,
+    [GAMES.POKEMON_SAPPHIRE]: gen_3.MOVES,
+    [GAMES.POKEMON_FIRE_RED]: gen_3.MOVES,
+    [GAMES.POKEMON_LEAF_GREEN]: gen_3.MOVES,
+    [GAMES.POKEMON_EMERALD]: gen_3.MOVES,
+    [GAMES.POKEMON_DIAMOND]: gen_4.MOVES,
+    [GAMES.POKEMON_PEARL]: gen_4.MOVES,
+    [GAMES.POKEMON_PLATINUM]: gen_4.MOVES,
+    [GAMES.POKEMON_HEART_GOLD]: gen_4.MOVES,
+    [GAMES.POKEMON_SOUL_SILVER]: gen_4.MOVES,
+    [GAMES.POKEMON_BLACK]: gen_5.MOVES,
+    [GAMES.POKEMON_WHITE]: gen_5.MOVES,
+    [GAMES.POKEMON_BLACK_2]: gen_5.MOVES,
+    [GAMES.POKEMON_WHITE_2]: gen_5.MOVES,
+    [GAMES.POKEMON_X]: gen_6.MOVES,
+    [GAMES.POKEMON_Y]: gen_6.MOVES,
+    [GAMES.POKEMON_OMEGA_RUBY]: gen_6.MOVES,
+    [GAMES.POKEMON_ALPHA_SAPPHIRE]: gen_6.MOVES,
+    [GAMES.POKEMON_SUN]: gen_7.MOVES,
+    [GAMES.POKEMON_MOON]: gen_7.MOVES,
+    [GAMES.POKEMON_ULTRA_SUN]: gen_7.MOVES,
+    [GAMES.POKEMON_ULTRA_MOON]: gen_7.MOVES,
+    [GAMES.POKEMON_LETS_GO_PIKACHU]: gen_1.MOVES,
+    [GAMES.POKEMON_LETS_GO_EEVEE]: gen_1.MOVES,
+    [GAMES.POKEMON_SWORD]: gen_8.MOVES,
+    [GAMES.POKEMON_SHIELD]: gen_8.MOVES,
+  };
+  Object.keys(expected).forEach(game => {
+    test(game+' has expected movedex', () => {
+      expect(getMovesByGameId(game)).toBe(expected[game]);
+    });
+  });
+
+  test('pokemon test returns an error', () => {
+    expect(() => getMovesByGameId('test')).toThrow('GameId "test" is invalid!');
+  });
+});
