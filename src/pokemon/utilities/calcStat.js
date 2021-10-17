@@ -15,7 +15,7 @@ export function calcStats(pokemon) {
       stat,
       pokemon.level,
       pokemon.nature,
-      pokemon.pokemon.base_stats,
+      pokemon.pokemon?.base_stats,
       pokemon.ivs,
       pokemon.evs
     );
