@@ -34,7 +34,7 @@ export function calcDamageRange(attkPokemon, enemyPokemon, move) {
     critical: calcCritChance(attkPokemon.modifiers.critical) ? 1.5 : 1,
     stab: attkPokemon.types.includes(move.type) ? 1.5 : 1,
     type: calcTypeEffectiveness(move.type, enemyPokemon.types, gen_6),
-    burn: calcBurnPower(attkPokemon, move),
+    burn: calcBurnPower(attkPokemon.modifiers.burn, attkPokemon.ability.name, move.category === MOVE_TYPES.PHYSICAL),
   });
 
 }
@@ -55,7 +55,7 @@ export function calcOtherVars(vars) {
     burn: 1,
   }, ...vars};
 
-  return others.reduce((i, j) => i * j);
+  return Object.values(others).reduce((i, j) => i * j);
 }
 
 /**
@@ -77,22 +77,15 @@ export function calcCritChance(critLevel=1) {
 
 /**
  * calculate the burn power
- * @param  BasePokemon attkPokemon
- * @param  Move move
- * @return int
+ * @param  bool burned
+ * @param  string abilityName
+ * @param  bool moveIsPhysical
+ * @return float
  */
-export function calcBurnPower(attkPokemon, move) {
-  if (!attkPokemon.modifiers.burn) {
-    return 1;
+export function calcBurnPower(burned, abilityName, moveIsPhysical) {
+  if (burned && abilityName !== 'guts' && moveIsPhysical) {
+    return 0.5;
   }
 
-  if (attkPokemon.ability.name === 'guts') {
-    return 1;
-  }
-
-  if (move.category !== MOVE_TYPES.PHYSICAL) {
-    return 1;
-  }
-
-  return 0.5;
+  return 1;
 }
