@@ -62,7 +62,7 @@ export function getTypeEffectiveness(attkType, defTypes, types) {
     }
   });
 
-  // defneding pokemon is immune
+  // defending pokemon is immune
   if (noEffect) {
     return 0;
   }

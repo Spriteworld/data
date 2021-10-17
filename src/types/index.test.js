@@ -95,7 +95,7 @@ describe('getTypeEffectiveness against double typings', () => {
     [TYPES.ELECTRIC, [TYPES.WATER, TYPES.GROUND], gen_6, 0],
   ];
   typeChecks.forEach(check => {
-    test('${check[0]} move against a ${check[1][0]}/${check[1][1]} type is ${check[3]}x effective', () => {
+    test(`${check[0]} move against a ${check[1][0]}/${check[1][1]} type is ${check[3]}x effective`, () => {
       expect(getTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
     });
   });
@@ -110,7 +110,7 @@ describe('getTypeEffectiveness against single typings', () => {
     [TYPES.DRAGON, [TYPES.FAIRY], gen_6, 0],
   ];
   typeChecks.forEach(check => {
-    test('${check[0]} move against a ${check[1][0]} type is ${check[3]}x effective', () => {
+    test(`${check[0]} move against a ${check[1][0]} type is ${check[3]}x effective`, () => {
       expect(getTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
     });
   });
