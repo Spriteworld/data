@@ -36,6 +36,9 @@ export function calcDamageRange(attkPokemon, enemyPokemon, move) {
     type: calcTypeEffectiveness(move.type, enemyPokemon.types, gen_6),
     burn: calcBurnPower(attkPokemon.modifiers.burn, attkPokemon.ability.name, move.category === MOVE_TYPES.PHYSICAL),
   });
+  if (other.critical === 1.5) {
+    console.log('CRITICAL HIT!');
+  }
 
 }
 
@@ -64,7 +67,7 @@ export function calcOtherVars(vars) {
  * @return bool
  */
 export function calcCritChance(critLevel=1) {
-  let chance = Math.random();
+  let chance = Math.random() * 100;
   switch(critLevel) {
     case 1: return (chance <= 6.25); break;
     case 2: return (chance <= 12.5); break;
