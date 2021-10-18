@@ -15,7 +15,7 @@ export const MOVES = [
   {
     "id": 2,
     "name": "karate chop",
-    "type": TYPES.FIGHTING,
+    "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 25,
     "power": 50,
@@ -118,7 +118,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 30,
     "gen": 1
   },
@@ -129,7 +129,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 10,
     "power": 80,
-    "accuracy": 100,
+    "accuracy": 75,
     "gen": 1
   },
   {
@@ -137,9 +137,9 @@ export const MOVES = [
     "name": "swords dance",
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.STATUS,
-    "pp": 20,
+    "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -155,7 +155,7 @@ export const MOVES = [
   {
     "id": 16,
     "name": "gust",
-    "type": TYPES.FLYING,
+    "type": TYPES.NORMAL,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 35,
     "power": 40,
@@ -168,7 +168,7 @@ export const MOVES = [
     "type": TYPES.FLYING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 35,
-    "power": 60,
+    "power": 35,
     "accuracy": 100,
     "gen": 1
   },
@@ -179,7 +179,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": 85,
     "gen": 1
   },
   {
@@ -188,7 +188,7 @@ export const MOVES = [
     "type": TYPES.FLYING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 15,
-    "power": 90,
+    "power": 70,
     "accuracy": 95,
     "gen": 1
   },
@@ -199,7 +199,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
     "power": 15,
-    "accuracy": 85,
+    "accuracy": 75,
     "gen": 1
   },
   {
@@ -217,8 +217,8 @@ export const MOVES = [
     "name": "vine whip",
     "type": TYPES.GRASS,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 25,
-    "power": 45,
+    "pp": 10,
+    "power": 35,
     "accuracy": 100,
     "gen": 1
   },
@@ -257,8 +257,8 @@ export const MOVES = [
     "name": "jump kick",
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 10,
-    "power": 100,
+    "pp": 25,
+    "power": 70,
     "accuracy": 95,
     "gen": 1
   },
@@ -275,7 +275,7 @@ export const MOVES = [
   {
     "id": 28,
     "name": "sand attack",
-    "type": TYPES.GROUND,
+    "type": TYPES.NORMAL,
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
@@ -318,7 +318,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 30,
     "gen": 1
   },
@@ -328,8 +328,8 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 35,
-    "power": 40,
-    "accuracy": 100,
+    "power": 35,
+    "accuracy": 95,
     "gen": 1
   },
   {
@@ -349,7 +349,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
     "power": 15,
-    "accuracy": 90,
+    "accuracy": 85,
     "gen": 1
   },
   {
@@ -367,8 +367,8 @@ export const MOVES = [
     "name": "thrash",
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 10,
-    "power": 120,
+    "pp": 20,
+    "power": 90,
     "accuracy": 100,
     "gen": 1
   },
@@ -378,7 +378,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 15,
-    "power": 120,
+    "power": 100,
     "accuracy": 100,
     "gen": 1
   },
@@ -418,8 +418,8 @@ export const MOVES = [
     "type": TYPES.BUG,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
-    "power": 25,
-    "accuracy": 95,
+    "power": 14,
+    "accuracy": 85,
     "gen": 1
   },
   {
@@ -435,7 +435,7 @@ export const MOVES = [
   {
     "id": 44,
     "name": "bite",
-    "type": TYPES.DARK,
+    "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 25,
     "power": 60,
@@ -459,7 +459,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": 100,
     "gen": 1
   },
   {
@@ -488,7 +488,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
-    "power": 0,
+    "power": null,
     "accuracy": 90,
     "gen": 1
   },
@@ -499,7 +499,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 100,
+    "accuracy": 55,
     "gen": 1
   },
   {
@@ -528,7 +528,7 @@ export const MOVES = [
     "type": TYPES.FIRE,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
-    "power": 90,
+    "power": 95,
     "accuracy": 100,
     "gen": 1
   },
@@ -539,7 +539,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -558,7 +558,7 @@ export const MOVES = [
     "type": TYPES.WATER,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 5,
-    "power": 110,
+    "power": 120,
     "accuracy": 80,
     "gen": 1
   },
@@ -568,7 +568,7 @@ export const MOVES = [
     "type": TYPES.WATER,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
-    "power": 90,
+    "power": 95,
     "accuracy": 100,
     "gen": 1
   },
@@ -578,7 +578,7 @@ export const MOVES = [
     "type": TYPES.ICE,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 10,
-    "power": 90,
+    "power": 95,
     "accuracy": 100,
     "gen": 1
   },
@@ -588,8 +588,8 @@ export const MOVES = [
     "type": TYPES.ICE,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 5,
-    "power": 110,
-    "accuracy": 70,
+    "power": 120,
+    "accuracy": 90,
     "gen": 1
   },
   {
@@ -657,7 +657,7 @@ export const MOVES = [
     "name": "submission",
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 20,
+    "pp": 25,
     "power": 80,
     "accuracy": 80,
     "gen": 1
@@ -668,8 +668,8 @@ export const MOVES = [
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
-    "power": 0,
-    "accuracy": 100,
+    "power": 50,
+    "accuracy": 90,
     "gen": 1
   },
   {
@@ -678,7 +678,7 @@ export const MOVES = [
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -688,7 +688,7 @@ export const MOVES = [
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -707,7 +707,7 @@ export const MOVES = [
     "name": "absorb",
     "type": TYPES.GRASS,
     "category": MOVE_TYPES.SPECIAL,
-    "pp": 25,
+    "pp": 20,
     "power": 20,
     "accuracy": 100,
     "gen": 1
@@ -717,7 +717,7 @@ export const MOVES = [
     "name": "mega drain",
     "type": TYPES.GRASS,
     "category": MOVE_TYPES.SPECIAL,
-    "pp": 15,
+    "pp": 10,
     "power": 40,
     "accuracy": 100,
     "gen": 1
@@ -737,9 +737,9 @@ export const MOVES = [
     "name": "growth",
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.STATUS,
-    "pp": 20,
+    "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -797,8 +797,8 @@ export const MOVES = [
     "name": "petal dance",
     "type": TYPES.GRASS,
     "category": MOVE_TYPES.SPECIAL,
-    "pp": 10,
-    "power": 120,
+    "pp": 20,
+    "power": 70,
     "accuracy": 100,
     "gen": 1
   },
@@ -818,7 +818,7 @@ export const MOVES = [
     "type": TYPES.DRAGON,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 10,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -828,8 +828,8 @@ export const MOVES = [
     "type": TYPES.FIRE,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
-    "power": 35,
-    "accuracy": 85,
+    "power": 15,
+    "accuracy": 70,
     "gen": 1
   },
   {
@@ -848,7 +848,7 @@ export const MOVES = [
     "type": TYPES.ELECTRIC,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
-    "power": 90,
+    "power": 95,
     "accuracy": 100,
     "gen": 1
   },
@@ -859,7 +859,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 90,
+    "accuracy": 100,
     "gen": 1
   },
   {
@@ -868,7 +868,7 @@ export const MOVES = [
     "type": TYPES.ELECTRIC,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 10,
-    "power": 110,
+    "power": 120,
     "accuracy": 70,
     "gen": 1
   },
@@ -879,7 +879,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 15,
     "power": 50,
-    "accuracy": 90,
+    "accuracy": 65,
     "gen": 1
   },
   {
@@ -898,7 +898,7 @@ export const MOVES = [
     "type": TYPES.GROUND,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 30,
     "gen": 1
   },
@@ -908,7 +908,7 @@ export const MOVES = [
     "type": TYPES.GROUND,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
-    "power": 80,
+    "power": 100,
     "accuracy": 100,
     "gen": 1
   },
@@ -919,7 +919,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 90,
+    "accuracy": 85,
     "gen": 1
   },
   {
@@ -959,7 +959,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -969,7 +969,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -999,7 +999,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1008,7 +1008,7 @@ export const MOVES = [
     "type": TYPES.GHOST,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -1019,7 +1019,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": 100,
     "gen": 1
   },
   {
@@ -1039,7 +1039,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1047,9 +1047,9 @@ export const MOVES = [
     "name": "recover",
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.STATUS,
-    "pp": 10,
+    "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1059,7 +1059,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1067,9 +1067,9 @@ export const MOVES = [
     "name": "minimize",
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.STATUS,
-    "pp": 10,
+    "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1099,7 +1099,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1109,7 +1109,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1117,9 +1117,9 @@ export const MOVES = [
     "name": "barrier",
     "type": TYPES.PSYCHIC,
     "category": MOVE_TYPES.STATUS,
-    "pp": 20,
+    "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1129,7 +1129,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1139,7 +1139,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1149,7 +1149,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1159,7 +1159,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1168,8 +1168,8 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
-    "power": 0,
-    "accuracy": 0,
+    "power": null,
+    "accuracy": 100,
     "gen": 1
   },
   {
@@ -1178,8 +1178,8 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
-    "power": 0,
-    "accuracy": 0,
+    "power": null,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1189,7 +1189,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1198,7 +1198,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 200,
+    "power": 130,
     "accuracy": 100,
     "gen": 1
   },
@@ -1218,7 +1218,7 @@ export const MOVES = [
     "type": TYPES.GHOST,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 30,
-    "power": 30,
+    "power": 20,
     "accuracy": 100,
     "gen": 1
   },
@@ -1228,7 +1228,7 @@ export const MOVES = [
     "type": TYPES.POISON,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
-    "power": 30,
+    "power": 20,
     "accuracy": 70,
     "gen": 1
   },
@@ -1258,7 +1258,7 @@ export const MOVES = [
     "type": TYPES.FIRE,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 5,
-    "power": 110,
+    "power": 120,
     "accuracy": 85,
     "gen": 1
   },
@@ -1277,9 +1277,9 @@ export const MOVES = [
     "name": "clamp",
     "type": TYPES.WATER,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 15,
+    "pp": 10,
     "power": 35,
-    "accuracy": 85,
+    "accuracy": 75,
     "gen": 1
   },
   {
@@ -1289,7 +1289,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1297,8 +1297,8 @@ export const MOVES = [
     "name": "skull bash",
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 10,
-    "power": 130,
+    "pp": 15,
+    "power": 100,
     "accuracy": 100,
     "gen": 1
   },
@@ -1329,7 +1329,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1349,7 +1349,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1357,8 +1357,8 @@ export const MOVES = [
     "name": "high jump kick",
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 10,
-    "power": 130,
+    "pp": 20,
+    "power": 85,
     "accuracy": 90,
     "gen": 1
   },
@@ -1369,7 +1369,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 100,
+    "accuracy": 75,
     "gen": 1
   },
   {
@@ -1389,7 +1389,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 90,
+    "accuracy": 55,
     "gen": 1
   },
   {
@@ -1407,8 +1407,8 @@ export const MOVES = [
     "name": "leech life",
     "type": TYPES.BUG,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 10,
-    "power": 80,
+    "pp": 15,
+    "power": 20,
     "accuracy": 100,
     "gen": 1
   },
@@ -1439,7 +1439,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1448,7 +1448,7 @@ export const MOVES = [
     "type": TYPES.WATER,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 30,
-    "power": 40,
+    "power": 20,
     "accuracy": 100,
     "gen": 1
   },
@@ -1479,7 +1479,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 100,
+    "accuracy": 70,
     "gen": 1
   },
   {
@@ -1489,7 +1489,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
     "power": 0,
-    "accuracy": 100,
+    "accuracy": 80,
     "gen": 1
   },
   {
@@ -1499,7 +1499,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1507,9 +1507,9 @@ export const MOVES = [
     "name": "acid armor",
     "type": TYPES.POISON,
     "category": MOVE_TYPES.STATUS,
-    "pp": 20,
+    "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1518,8 +1518,8 @@ export const MOVES = [
     "type": TYPES.WATER,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
-    "power": 100,
-    "accuracy": 90,
+    "power": 90,
+    "accuracy": 85,
     "gen": 1
   },
   {
@@ -1528,7 +1528,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 250,
+    "power": 170,
     "accuracy": 100,
     "gen": 1
   },
@@ -1559,7 +1559,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1589,7 +1589,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1599,7 +1599,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1639,7 +1639,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1647,9 +1647,9 @@ export const MOVES = [
     "name": "struggle",
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
-    "pp": 1,
+    "pp": 10,
     "power": 50,
-    "accuracy": 0,
+    "accuracy": 100,
     "gen": 1
   }
-]
+];
