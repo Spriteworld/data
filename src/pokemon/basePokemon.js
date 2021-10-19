@@ -1,17 +1,20 @@
 import { validate } from '../utilities/validate';
 import { statValidation } from './utilities/statValidation';
 import { GROWTH, NATURES, calcStats } from './index';
-import { STATS, GAMES } from '../index';
+import { STATS, GAMES, STATUS } from '../index';
 import { Pokedex } from '../pokedex/pokedex';
+import { Movedex } from '../moves/movedex';
 
 export class BasePokemon {
   constructor({
-    id,
+    pid,
     species,
     originalTrainer,
     trainerId,
+    nickname,
     level,
     nature,
+    ability,
     ivs,
     evs,
     moves,
@@ -23,16 +26,17 @@ export class BasePokemon {
     }
 
     Object.assign(this, {
-      ...(parseInt(id) && {id}),
+      ...(parseInt(pid) && {pid}),
       ...(species && {species}),
       ...(originalTrainer && {originalTrainer}),
       ...(parseInt(trainerId) && {trainerId}),
+      ...(nickname && {nickname}),
       ...(parseInt(level) && {level}),
       ...(nature && {nature}),
+      ...(ability && {ability}),
       ...(typeof ivs === 'object' && {ivs}),
       ...(typeof evs === 'object' && {evs}),
       ...(typeof moves === 'object' && {moves}),
-      ...(pokemon && {pokemon}),
     });
 
     // if we have no gen, use latest
@@ -56,10 +60,52 @@ export class BasePokemon {
     if (typeof this.pokemon === 'undefined') {
       this.pokemon = pokemon;
     }
-    // console.log(['BasePokemon', this]);
+
+    // if we have types, take them otherwise load from base pokemon
+    if (typeof this.types === 'undefined') {
+      this.types = this.pokemon.types;
+    }
+
+    // load the moves
+    if (typeof this.moves !== 'undefined' || this.moves?.length > 0) {
+      let movedex = new Movedex(8);
+      this.moves = movedex.getMovesForPokemon(this.moves);
+    } else {
+      this.moves = [];
+    }
+
     // calc the base stats
     this.stats = calcStats(this);
     this.currentHp = this.stats?.HP;
+    this.pokerus = 0;
+
+    if (ability) {
+      this.ability = {
+        name: ability,
+      };
+    }
+
+    // in battle modifiers
+    this.modifiers = {
+      attack: 1,
+      defense: 1,
+      special_defence: 1,
+      special_attack: 1,
+      speed: 1,
+      evasion: 1,
+      accuracy: 1,
+      critical: 1,
+    };
+
+    // pokemon status
+    this.status = {
+      [STATUS.SLEEP]: 0,
+      [STATUS.POISON]: 0,
+      [STATUS.BURN]: 0,
+      [STATUS.FROZEN]: 0,
+      [STATUS.PARALYZE]: 0,
+      [STATUS.TOXIC]: 0,
+    };
 
     const errors = validate(this, {
       'nature': {
@@ -81,6 +127,7 @@ export class BasePokemon {
         throw message;
       }
     }
+    // console.log(['BasePokemon', this]);
   }
 
 

@@ -8,9 +8,14 @@ export class Pokedex {
   }
 
   getPokemonById(id) {
-    return Object.values(this.pokedex).find(pokemon => {
+    let pokemon = Object.values(this.pokedex).find(pokemon => {
       return pokemon.id === id;
     });
+    if (typeof pokemon === 'undefined' || pokemon.length === 0) {
+      throw 'PokemonId "'+id+'" is invalid!';
+    }
+
+    return pokemon;
   }
 
   getPokemonBySpecies(species, form=null) {

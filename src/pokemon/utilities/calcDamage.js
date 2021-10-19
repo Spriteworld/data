@@ -2,13 +2,13 @@ import * as MOVE_TYPES from '../../moves/definitions';
 import * as TYPES from '../../types/definitions';
 import { gen_6, calcTypeEffectiveness } from '../../types';
 import { STATS } from '../../index';
-import { round, randomInt } from '../../utilities';
+import { round, random } from '../../utilities';
 
 /**
  * Calculates all damages for a pokemon
  * @return {[type]} [description]
  */
-export function calcDamage(pokemon) {
+const calcDamage = (pokemon) => {
 
 }
 
@@ -16,7 +16,11 @@ export function calcDamage(pokemon) {
  * Calculates damage ranges for a pokemon move
  * @return array Damage range
  */
-export function calcDamageRange(attkPokemon, enemyPokemon, move) {
+const calcDamageRange = (attkPokemon, enemyPokemon, move) => {
+  if (move.category === MOVE_TYPES.STATUS) {
+    return 0;
+  }
+
   let level = attkPokemon.level;
   let attackStat = attkPokemon.stats[
     move.category === MOVE_TYPES.PHYSICAL
@@ -30,16 +34,19 @@ export function calcDamageRange(attkPokemon, enemyPokemon, move) {
   ];
   let power = move.power;
 
-  let other = calcOtherVars({
-    critical: calcCritChance(attkPokemon.modifiers.critical) ? 1.5 : 1,
+  let others = {
+    critical: CalcDamage.calcCritChance(attkPokemon.modifiers.critical) ? 2 : 1,
     stab: attkPokemon.types.includes(move.type) ? 1.5 : 1,
     type: calcTypeEffectiveness(move.type, enemyPokemon.types, gen_6),
-    burn: calcBurnPower(attkPokemon.modifiers.burn, attkPokemon.ability.name, move.category === MOVE_TYPES.PHYSICAL),
-  });
-  if (other.critical === 1.5) {
-    console.log('CRITICAL HIT!');
-  }
+    burn: CalcDamage.calcBurnPower(attkPokemon.modifiers.burn, attkPokemon.ability.name, move.category === MOVE_TYPES.PHYSICAL),
+  };
 
+  let LevelStep = (Math.trunc((2 * level) / 5) + 2) * power;
+  let LevelAtkDef = Math.trunc(LevelStep * (attackStat / defenceStat));
+  let Total = Math.trunc(LevelAtkDef / 50) + 2;
+  let TotalOther = CalcDamage.calcOtherVars(Total, others, move);
+
+  return TotalOther;
 }
 
 /**
@@ -47,18 +54,24 @@ export function calcDamageRange(attkPokemon, enemyPokemon, move) {
  * @param  object vars
  * @return int
  */
-export function calcOtherVars(vars) {
+const calcOtherVars = (total, vars, move) => {
   let others = {...{
     targets: 1,
     weather: 1,
     critical: 1,
-    random: round(randomInt(0.85, 1), 2),
+    random: parseFloat(random(0.85, 1).toFixed(2)),
     stab: 1,
     typeEffectiveness: 1,
     burn: 1,
   }, ...vars};
+  if (others.critical == 1.5) {
+    console.log('CRITICAL HIT! ('+move.name+')');
+  }
 
-  return Object.values(others).reduce((i, j) => i * j);
+  Object.values(others).forEach((value) => {
+    total = Math.trunc(total * value);
+  });
+  return total;
 }
 
 /**
@@ -66,7 +79,7 @@ export function calcOtherVars(vars) {
  * @param  int critLevel
  * @return bool
  */
-export function calcCritChance(critLevel=1) {
+const calcCritChance = (critLevel=1) => {
   let chance = Math.random() * 100;
   switch(critLevel) {
     case 1: return (chance <= 6.25); break;
@@ -85,10 +98,19 @@ export function calcCritChance(critLevel=1) {
  * @param  bool moveIsPhysical
  * @return float
  */
-export function calcBurnPower(burned, abilityName, moveIsPhysical) {
+const calcBurnPower = (burned, abilityName, moveIsPhysical) => {
   if (burned && abilityName !== 'guts' && moveIsPhysical) {
     return 0.5;
   }
 
   return 1;
 }
+
+
+export const CalcDamage = {
+  calcDamage,
+  calcDamageRange,
+  calcOtherVars,
+  calcCritChance,
+  calcBurnPower,
+};

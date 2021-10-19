@@ -8,6 +8,8 @@ import * as gen_6 from './gen_6';
 // import * as gen_8 from './gen_6';
 import { inArray } from '../utilities';
 
+export { gen_1, gen_2, gen_6 };
+
 export function getTypesByGen(gen=8) {
   switch(gen) {
     case 1:
@@ -41,8 +43,23 @@ export function getTypesByGen(gen=8) {
  * 2
  * 4 = Super Effective
  */
-export function getTypeEffectiveness(attkType, defTypes, types) {
+export function calcTypeEffectiveness(attkType, defTypes, types) {
   // do checks on the types
+  if (typeof types === 'undefined') {
+    throw Error('Types are invalid!');
+  }
+  if (Object.values(types).length != 4) {
+    throw Error('Types dont have enough values!');
+  }
+  if (!Object.keys(types.TYPES).includes(attkType)) {
+    throw Error('attkType is invalid!');
+  }
+  if (!Object.keys(types.TYPES).includes(defTypes[0])) {
+    throw Error('defTypes 1 is invalid!');
+  }
+  if (defTypes.length == 2 && !Object.keys(types.TYPES).includes(defTypes[1])) {
+    throw Error('defTypes 2 is invalid!');
+  }
 
   var effect = 1;
   var noEffect = false;

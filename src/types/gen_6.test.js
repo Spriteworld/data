@@ -1,9 +1,9 @@
 import * as gen_6 from './gen_6';
 import * as TYPES from './definitions';
-import { getTypeEffectiveness } from './index';
+import { calcTypeEffectiveness } from './index';
 
 
-describe('getTypeEffectiveness against double typings', () => {
+describe('calcTypeEffectiveness against double typings', () => {
   let typeChecks = [
     /** ATTACK_TYPE, DEFENSE_TYPES, GEN[1|2|6], expectation[0|0.25|0.5|1|2|4]  */
     [TYPES.NORMAL, [TYPES.NORMAL, TYPES.FIRE], gen_6, 1],
@@ -2764,12 +2764,12 @@ describe('getTypeEffectiveness against double typings', () => {
   ];
   typeChecks.forEach(check => {
     test(`${check[0]} move against a ${check[1][0]}/${check[1][1]} type is ${check[3]}x effective`, () => {
-      expect(getTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
+      expect(calcTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
     });
   });
 });
 
-describe('getTypeEffectiveness against single typings', () => {
+describe('calcTypeEffectiveness against single typings', () => {
   let typeChecks = [
     /** ATTACK_TYPE, DEFENSE_TYPES, GEN[1|2|6], expectation[0|0.5|1|2]  */
     [TYPES.NORMAL, [TYPES.NORMAL], gen_6, 1],
@@ -3099,7 +3099,7 @@ describe('getTypeEffectiveness against single typings', () => {
   ];
   typeChecks.forEach(check => {
     test(`${check[0]} move against a ${check[1][0]} type is ${check[3]}x effective`, () => {
-      expect(getTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
+      expect(calcTypeEffectiveness(check[0], check[1], check[2])).toBe(check[3]);
     });
   });
 });

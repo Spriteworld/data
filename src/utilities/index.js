@@ -1,9 +1,9 @@
 import validate from './validate';
 import {round} from './round';
-import {randomInt} from './randomInt';
+import {random} from './random';
 
 export {
   validate,
   round,
-  randomInt
+  random
 };
