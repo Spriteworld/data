@@ -118,7 +118,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 30,
     "gen": 1
   },
@@ -179,7 +179,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -318,7 +318,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 30,
     "gen": 1
   },
@@ -459,7 +459,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -488,7 +488,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
-    "power": 0,
+    "power": null,
     "accuracy": 90,
     "gen": 1
   },
@@ -539,7 +539,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -668,7 +668,7 @@ export const MOVES = [
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -678,7 +678,7 @@ export const MOVES = [
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -688,7 +688,7 @@ export const MOVES = [
     "type": TYPES.FIGHTING,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -818,7 +818,7 @@ export const MOVES = [
     "type": TYPES.DRAGON,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 10,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -898,7 +898,7 @@ export const MOVES = [
     "type": TYPES.GROUND,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 30,
     "gen": 1
   },
@@ -959,7 +959,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -969,7 +969,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -999,7 +999,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1008,7 +1008,7 @@ export const MOVES = [
     "type": TYPES.GHOST,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 1
   },
@@ -1019,7 +1019,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1039,7 +1039,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1049,7 +1049,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1059,7 +1059,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1069,7 +1069,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1099,7 +1099,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1109,7 +1109,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1119,7 +1119,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1129,7 +1129,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1139,7 +1139,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1149,7 +1149,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1159,7 +1159,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1169,7 +1169,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1179,7 +1179,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1189,7 +1189,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1289,7 +1289,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1329,7 +1329,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1349,7 +1349,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1439,7 +1439,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1499,7 +1499,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1509,7 +1509,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1559,7 +1559,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1589,7 +1589,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1599,7 +1599,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1639,7 +1639,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1649,7 +1649,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 50,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 1
   },
   {
@@ -1659,7 +1659,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1689,7 +1689,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1739,7 +1739,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1759,7 +1759,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1819,7 +1819,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1849,7 +1849,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1869,7 +1869,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1909,7 +1909,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1939,7 +1939,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1949,7 +1949,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1969,7 +1969,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -1989,7 +1989,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2009,7 +2009,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2029,7 +2029,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2079,7 +2079,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2119,7 +2119,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2139,7 +2139,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2149,7 +2149,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2189,7 +2189,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 25,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2199,7 +2199,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2218,7 +2218,7 @@ export const MOVES = [
     "type": TYPES.GROUND,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 30,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 2
   },
@@ -2259,7 +2259,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2288,7 +2288,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 40,
-    "power": 50,
+    "power": 20,
     "accuracy": 100,
     "gen": 2
   },
@@ -2329,7 +2329,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
     "power": 70,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2339,7 +2339,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2349,7 +2349,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2359,7 +2359,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2399,7 +2399,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2409,7 +2409,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2439,7 +2439,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 2
   },
   {
@@ -2508,7 +2508,7 @@ export const MOVES = [
     "type": TYPES.DARK,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 2
   },
@@ -2539,7 +2539,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2559,7 +2559,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2579,7 +2579,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2659,7 +2659,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2669,7 +2669,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2679,7 +2679,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2699,7 +2699,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2719,7 +2719,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2729,7 +2729,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2739,7 +2739,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2749,7 +2749,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2769,7 +2769,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2779,7 +2779,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2809,7 +2809,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2828,7 +2828,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 100,
     "gen": 3
   },
@@ -2849,7 +2849,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2859,7 +2859,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2869,7 +2869,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2879,7 +2879,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2889,7 +2889,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2929,7 +2929,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2939,7 +2939,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -2999,7 +2999,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3029,7 +3029,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3119,7 +3119,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3219,7 +3219,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3249,7 +3249,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3288,7 +3288,7 @@ export const MOVES = [
     "type": TYPES.ICE,
     "category": MOVE_TYPES.SPECIAL,
     "pp": 5,
-    "power": 0,
+    "power": null,
     "accuracy": 30,
     "gen": 3
   },
@@ -3319,7 +3319,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3339,7 +3339,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3349,7 +3349,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3359,7 +3359,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3389,7 +3389,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3449,7 +3449,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3459,7 +3459,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3469,7 +3469,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3489,7 +3489,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3509,7 +3509,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 3
   },
   {
@@ -3549,7 +3549,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3559,7 +3559,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3569,7 +3569,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 40,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3609,7 +3609,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3659,7 +3659,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3669,7 +3669,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3759,7 +3759,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3789,7 +3789,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3809,7 +3809,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3819,7 +3819,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3829,7 +3829,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3839,7 +3839,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3849,7 +3849,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3899,7 +3899,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3909,7 +3909,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3929,7 +3929,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3959,7 +3959,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
     "power": 80,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -3969,7 +3969,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4169,7 +4169,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4319,7 +4319,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4329,7 +4329,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 5,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4429,7 +4429,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
     "power": 60,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4459,7 +4459,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4549,7 +4549,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4609,7 +4609,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 4
   },
   {
@@ -4679,7 +4679,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4689,7 +4689,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4699,7 +4699,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4709,7 +4709,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4719,7 +4719,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4749,7 +4749,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4759,7 +4759,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4769,7 +4769,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4779,7 +4779,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4829,7 +4829,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4889,7 +4889,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4949,7 +4949,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -4989,7 +4989,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
     "power": 50,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5009,7 +5009,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5019,7 +5019,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5039,7 +5039,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5049,7 +5049,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5079,7 +5079,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5129,7 +5129,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5159,7 +5159,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5259,7 +5259,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5379,7 +5379,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 5
   },
   {
@@ -5609,7 +5609,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5629,7 +5629,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5639,7 +5639,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5689,7 +5689,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 25,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5739,7 +5739,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 15,
     "power": 40,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5759,7 +5759,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5779,7 +5779,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5789,7 +5789,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5799,7 +5799,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5809,7 +5809,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5819,7 +5819,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5869,7 +5869,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5879,7 +5879,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5889,7 +5889,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5899,7 +5899,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5929,7 +5929,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 5,
     "power": 80,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5959,7 +5959,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -5969,7 +5969,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -6009,7 +6009,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -6019,7 +6019,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -6029,7 +6029,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -6039,7 +6039,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 6
   },
   {
@@ -6050,26 +6050,6 @@ export const MOVES = [
     "pp": 10,
     "power": 80,
     "accuracy": 100,
-    "gen": 6
-  },
-  {
-    "id": 606,
-    "name": "celebrate",
-    "type": TYPES.NORMAL,
-    "category": MOVE_TYPES.STATUS,
-    "pp": 40,
-    "power": 0,
-    "accuracy": 0,
-    "gen": 6
-  },
-  {
-    "id": 607,
-    "name": "hold hands",
-    "type": TYPES.NORMAL,
-    "category": MOVE_TYPES.STATUS,
-    "pp": 40,
-    "power": 0,
-    "accuracy": 0,
     "gen": 6
   },
   {
@@ -6219,7 +6199,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6229,7 +6209,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6239,7 +6219,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6249,7 +6229,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6259,7 +6239,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6269,7 +6249,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6279,7 +6259,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6289,7 +6269,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6299,7 +6279,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6309,7 +6289,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6319,7 +6299,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6329,7 +6309,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6339,7 +6319,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6349,7 +6329,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6359,7 +6339,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6369,7 +6349,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6379,7 +6359,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6389,7 +6369,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6399,7 +6379,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6409,7 +6389,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6419,7 +6399,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6429,7 +6409,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6439,7 +6419,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6449,7 +6429,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6459,7 +6439,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6469,7 +6449,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6479,7 +6459,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6489,7 +6469,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6499,7 +6479,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6509,7 +6489,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6519,7 +6499,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6529,7 +6509,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6539,7 +6519,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6549,7 +6529,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6559,7 +6539,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6569,7 +6549,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6579,7 +6559,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 210,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6589,7 +6569,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6609,7 +6589,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6659,7 +6639,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6709,7 +6689,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6729,7 +6709,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 30,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6739,7 +6719,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6779,7 +6759,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6829,7 +6809,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 10,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6839,7 +6819,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
     "power": 70,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6849,7 +6829,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6889,7 +6869,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 15,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6939,7 +6919,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6949,7 +6929,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 180,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6959,7 +6939,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 180,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6969,7 +6949,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 195,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6979,7 +6959,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6989,7 +6969,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 195,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -6999,7 +6979,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 175,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7009,7 +6989,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 210,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7019,7 +6999,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 1,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7029,7 +7009,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 185,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7149,7 +7129,7 @@ export const MOVES = [
     "category": MOVE_TYPES.STATUS,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7178,7 +7158,7 @@ export const MOVES = [
     "type": TYPES.NORMAL,
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 10,
-    "power": 120,
+    "power": 90,
     "accuracy": 100,
     "gen": 7
   },
@@ -7189,7 +7169,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 195,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7229,7 +7209,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 200,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7239,7 +7219,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 200,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7249,7 +7229,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 200,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7259,7 +7239,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 190,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7269,7 +7249,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 1,
     "power": 190,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7279,7 +7259,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 1,
     "power": 185,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7319,7 +7299,7 @@ export const MOVES = [
     "category": MOVE_TYPES.SPECIAL,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7409,7 +7389,7 @@ export const MOVES = [
     "category": MOVE_TYPES.PHYSICAL,
     "pp": 20,
     "power": 0,
-    "accuracy": 0,
+    "accuracy": null,
     "gen": 7
   },
   {
@@ -7422,4 +7402,4 @@ export const MOVES = [
     "accuracy": 100,
     "gen": 7
  }
-]
+];
