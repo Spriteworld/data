@@ -6,9 +6,11 @@ import { STATS } from '../../index';
 
 let oldMath = global.Math;
 let oldCalcOtherVars = CalcDamage.calcOtherVars;
+let oldCalcDamageRange = CalcDamage.calcDamageRange;
 afterEach(() => {
   global.Math = oldMath;
   CalcDamage.calcOtherVars = oldCalcOtherVars;
+  CalcDamage.calcDamageRange = oldCalcDamageRange;
 });
 
 describe('CalcDamage.calcDamage', () => {
@@ -75,39 +77,139 @@ describe('CalcDamage.calcDamage', () => {
   });
   test('gyarados dragon dance wont do damage against pikachu', () => {
     let move = new Movedex(8).getMoveByName('Dragon Dance');
-    expect(CalcDamage.calcDamageRange(enemyPokemon, attkPokemon, move)).toBe(0);
+    expect(CalcDamage.calcDamage(enemyPokemon, attkPokemon, move)).toBe(0);
   });
   test('gyarados earthquake damages pikachu', () => {
     let move = new Movedex(8).getMoveByName('Earthquake');
     expect([430, 436, 440, 446, 452, 456, 462, 466, 472, 476, 482, 486, 492, 496, 502, 508])
-      .toContain(CalcDamage.calcDamageRange(enemyPokemon, attkPokemon, move));
+      .toContain(CalcDamage.calcDamage(enemyPokemon, attkPokemon, move));
   });
   test('gyarados waterfall damages pikachu', () => {
     let move = new Movedex(8).getMoveByName('waterfall');
     expect([259, 262, 265, 268, 271, 274, 277, 280, 283, 286, 289, 292, 295, 298, 301, 306])
-      .toContain(CalcDamage.calcDamageRange(enemyPokemon, attkPokemon, move));
+      .toContain(CalcDamage.calcDamage(enemyPokemon, attkPokemon, move));
   });
 
   test('pikachu volt switch damages gyarados', () => {
     let move = new Movedex(8).getMoveByName('volt switch');
     expect([172, 180, 180, 180, 184, 184, 184, 192, 192, 192, 196, 196, 196, 204, 204, 208])
-      .toContain(CalcDamage.calcDamageRange(attkPokemon, enemyPokemon, move));
+      .toContain(CalcDamage.calcDamage(attkPokemon, enemyPokemon, move));
   });
   test('pikachu Knock off damages gyarados', () => {
     let move = new Movedex(8).getMoveByName('Knock off');
     expect([56, 56, 57, 58, 58, 59, 60, 60, 61, 62, 62, 63, 64, 64, 65, 66])
-      .toContain(CalcDamage.calcDamageRange(attkPokemon, enemyPokemon, move));
+      .toContain(CalcDamage.calcDamage(attkPokemon, enemyPokemon, move));
   });
 
   // test('sonic boom does 20 dmg', () => {
   //   let move = new Movedex(1).getMoveByName('sonic boom');
-  //   expect(CalcDamage.calcDamageRange(attkPokemon, enemyPokemon, move)).toBe(20);
+  //   expect(CalcDamage.calcDamage(attkPokemon, enemyPokemon, move)).toBe(20);
   // });
   // test('dragon rage does 40 dmg', () => {
   //   let move = new Movedex(1).getMoveByName('dragon rage');
-  //   expect(CalcDamage.calcDamageRange(attkPokemon, enemyPokemon, move)).toBe(40);
+  //   expect(CalcDamage.calcDamage(attkPokemon, enemyPokemon, move)).toBe(40);
   // });
 
+});
+
+describe('CalcDamage.calcDamageRange', () => {
+  let attkPokemon = new BasePokemon({
+    species: 'pikachu',
+    gender: 'male',
+    level: 100,
+    nature: NATURES.NAUGHTY,
+    ability: 'static',
+    item: null,
+    ivs: {
+      [STATS.HP]: 31,
+      [STATS.ATTACK]: 31,
+      [STATS.DEFENSE]: 31,
+      [STATS.SPECIAL_ATTACK]: 31,
+      [STATS.SPECIAL_DEFENSE]: 31,
+      [STATS.SPEED]: 31,
+    },
+    evs: {
+      [STATS.HP]: 0,
+      [STATS.ATTACK]: 252,
+      [STATS.DEFENSE]: 0,
+      [STATS.SPECIAL_ATTACK]: 4,
+      [STATS.SPECIAL_DEFENSE]: 0,
+      [STATS.SPEED]: 252,
+    },
+    moves: [
+      {name: 'Fake Out', pp: {current: 10, max: 10}},
+      {name: 'Extreme Speed', pp: {current: 10, max: 10}},
+      {name: 'Volt Switch', pp: {current: 10, max: 10}},
+      {name: 'Knock off', pp: {current: 10, max: 10}},
+    ]
+  });
+
+  let enemyPokemon = new BasePokemon({
+    species: 'gyarados',
+    gender: 'male',
+    level: 100,
+    nature: NATURES.JOLLY,
+    ability: 'moxie',
+    item: 'leftovers',
+    ivs: {
+      [STATS.HP]: 31,
+      [STATS.ATTACK]: 31,
+      [STATS.DEFENSE]: 31,
+      [STATS.SPECIAL_ATTACK]: 31,
+      [STATS.SPECIAL_DEFENSE]: 31,
+      [STATS.SPEED]: 31,
+    },
+    evs: {
+      [STATS.HP]: 0,
+      [STATS.ATTACK]: 252,
+      [STATS.DEFENSE]: 0,
+      [STATS.SPECIAL_ATTACK]: 0,
+      [STATS.SPECIAL_DEFENSE]: 4,
+      [STATS.SPEED]: 252,
+    },
+    moves: [
+      {name: 'Waterfall', pp: {current: 10, max: 10}},
+      {name: 'Dragon Dance', pp: {current: 10, max: 10}},
+      {name: 'Earthquake', pp: {current: 10, max: 10}},
+      {name: 'Power Whip', pp: {current: 10, max: 10}},
+    ]
+  });
+  CalcDamage.calcDamageRange = jest.fn((attkPokemon, enemyPokemon, move) => {
+    let range = [];
+    let random = 0.85;
+
+    for(let i=0; i<16; i++) {
+      range.push(
+        CalcDamage.calcDamage(attkPokemon, enemyPokemon, move, {
+          random: parseFloat((random+(i/100)).toFixed(2)),
+          critical: 1
+        })
+      );
+    }
+
+    return range;
+  });
+  test('range for gyarados earthquake damages pikachu', () => {
+    let move = new Movedex(8).getMoveByName('Earthquake');
+    expect(CalcDamage.calcDamageRange(enemyPokemon, attkPokemon, move))
+      .toStrictEqual([430, 436, 440, 446, 452, 456, 462, 466, 472, 476, 482, 486, 492, 496, 502, 508]);
+  });
+  test('range for gyarados waterfall damages pikachu', () => {
+    let move = new Movedex(8).getMoveByName('waterfall');
+    expect(CalcDamage.calcDamageRange(enemyPokemon, attkPokemon, move))
+      .toStrictEqual([259, 262, 265, 268, 271, 274, 277, 280, 283, 286, 289, 292, 295, 298, 301, 306]);
+  });
+
+  test('range for pikachu volt switch damages gyarados', () => {
+    let move = new Movedex(8).getMoveByName('volt switch');
+    expect(CalcDamage.calcDamageRange(attkPokemon, enemyPokemon, move))
+      .toStrictEqual([172, 180, 180, 180, 184, 184, 184, 192, 192, 192, 196, 196, 196, 204, 204, 208]);
+  });
+  test('range for pikachu Knock off damages gyarados', () => {
+    let move = new Movedex(8).getMoveByName('Knock off');
+    expect(CalcDamage.calcDamageRange(attkPokemon, enemyPokemon, move))
+      .toStrictEqual([56, 56, 57, 58, 58, 59, 60, 60, 61, 62, 62, 63, 64, 64, 65, 66]);
+  });
 });
 
 describe('CalcDamage.calcDamageRange', () => {
@@ -196,22 +298,32 @@ describe('CalcDamage.calcDamageRange', () => {
     '0.97': 192, '0.98': 192, '0.99': 192, '1.00': 196
   };
 
-  Object.keys(expected).forEach(k => {
-    test('glaceon w/ icefang against garchomp @ random:'+k+'', () => {
-      CalcDamage.calcOtherVars = jest.fn(() => {
-        let total = 33;
-        let others = {
-          random: parseFloat(k),
-          stab: 1.5,
-          typeEffectiveness: 4
-        };
-        Object.values(others).forEach((value) => {
-          total = Math.trunc(total * value);
-        });
-        return total;
-      });
-      expect(CalcDamage.calcDamageRange(glaceon, garchomp, move)).toBe(expected[k]);
+  // Object.keys(expected).forEach(k => {
+  //   test('glaceon w/ icefang against garchomp @ random:'+k+'', () => {
+  //     expect(CalcDamage.calcDamage(glaceon, garchomp, move, {
+  //       random: parseFloat(k),
+  //       critical: 1
+  //     })).toBe(expected[k]);
+  //   });
+  // });
+  test('range for glaceon icefang damage garchomp', () => {
+    CalcDamage.calcDamageRange = jest.fn((attkPokemon, enemyPokemon, move) => {
+      let range = [];
+      let random = 0.85;
+
+      for(let i=0; i<16; i++) {
+        range.push(
+          CalcDamage.calcDamage(attkPokemon, enemyPokemon, move, {
+            random: parseFloat((random+(i/100)).toFixed(2)),
+            critical: 1
+          })
+        );
+      }
+
+      return range;
     });
+    expect(CalcDamage.calcDamageRange(glaceon, garchomp, move))
+      .toStrictEqual(Object.values(expected));
   });
 });
 

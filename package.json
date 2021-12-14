@@ -1,12 +1,13 @@
 {
-  "name": "@pokelinkapp/pokemon-data",
+  "name": "@spriteworld/pokemon-data",
   "version": "0.0.1",
   "description": "Collection of Pokemon data and surrounding functionality.",
   "license": "MIT",
   "scripts": {
     "build": "babel src -d dist",
-    "test": "jest --watchAll",
-    "lint": "eslint . --ext .js,.jsx"
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "jest --watchAll --bail",
+    "test:debug": "node --inspect ./node_modules/jest/bin/jest.js --runInBand --watch"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
@@ -15,12 +16,12 @@
   "author": "xLink <xLink@cybershade.org>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pokelinkapp/data.git"
+    "url": "git+https://github.com/spriteworld/data.git"
   },
   "bugs": {
-    "url": "https://github.com/pokelinkapp/data/issues"
+    "url": "https://github.com/spriteworld/data/issues"
   },
-  "homepage": "https://github.com/pokelinkapp/data#readme",
+  "homepage": "https://github.com/spriteworld/data#readme",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/plugin-transform-modules-commonjs": "^7.15.4",

@@ -11,7 +11,7 @@ import * as TYPES from './types/definitions';
 import {
   GROWTH, NATURES, EXPERIENCE_TABLES,
 
-  BasePokemon, calcLevel, calcStat
+  BasePokemon, calcLevel, calcStat, CalcDamage
 } from './pokemon';
 
 export {
@@ -31,4 +31,5 @@ export {
   BasePokemon,
   calcLevel,
   calcStat,
+  CalcDamage
 };
