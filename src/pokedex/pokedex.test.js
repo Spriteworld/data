@@ -1,4 +1,4 @@
-import * as gen_1 from './gen_1';
+import * as DEX_RBY from './rby';
 import { Pokedex } from './pokedex';
 import { GAMES, FORMS } from '../index';
 
@@ -19,7 +19,6 @@ describe('Pokedex class can do things', () => {
 
     expect(pokemon).toHaveProperty('id');
     expect(pokemon).toHaveProperty('species');
-    expect(pokemon).toHaveProperty('dex_desc');
     expect(pokemon).toHaveProperty('types');
     expect(pokemon).toHaveProperty('gender');
     expect(pokemon).toHaveProperty('abilities');
@@ -33,7 +32,6 @@ describe('Pokedex class can do things', () => {
 
     expect(pokemon).toHaveProperty('id');
     expect(pokemon).toHaveProperty('species');
-    expect(pokemon).toHaveProperty('dex_desc');
     expect(pokemon).toHaveProperty('types');
     expect(pokemon).toHaveProperty('gender');
     expect(pokemon).toHaveProperty('abilities');
@@ -47,7 +45,6 @@ describe('Pokedex class can do things', () => {
 
   //   expect(pokemon).toHaveProperty('id');
   //   expect(pokemon).toHaveProperty('species');
-  //   expect(pokemon).toHaveProperty('dex_desc');
   //   expect(pokemon).toHaveProperty('types');
   //   expect(pokemon).toHaveProperty('gender');
   //   expect(pokemon).toHaveProperty('abilities');

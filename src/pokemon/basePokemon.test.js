@@ -1,7 +1,7 @@
 import { BasePokemon } from './basePokemon';
 import { STATS } from '../index';
 import { NATURES, GROWTH } from './index';
-import { POKEDEX } from '../pokedex/gen_1';
+import { POKEDEX } from '../pokedex/rby';
 import { MOVES } from '../moves/gen_1';
 
 describe('BasePokemon object can handle data', () => {

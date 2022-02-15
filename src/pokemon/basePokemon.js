@@ -1,12 +1,13 @@
 import { validate } from '../utilities/validate';
 import { statValidation } from './utilities/statValidation';
-import { GROWTH, NATURES, calcStats } from './index';
+import { NATURES, calcStats } from './index';
 import { STATS, GAMES, STATUS } from '../index';
 import { Pokedex } from '../pokedex/pokedex';
 import { Movedex } from '../moves/movedex';
 
 export class BasePokemon {
   constructor({
+    game,
     pid,
     species,
     originalTrainer,
@@ -26,6 +27,7 @@ export class BasePokemon {
     }
 
     Object.assign(this, {
+      ...(game && {game}),
       ...(parseInt(pid) && {pid}),
       ...(species && {species}),
       ...(originalTrainer && {originalTrainer}),
@@ -39,13 +41,13 @@ export class BasePokemon {
       ...(typeof moves === 'object' && {moves}),
     });
 
-    // if we have no gen, use latest
-    if (typeof this.gen === 'undefined') {
-      this.gen = 1;
+    // if we have no game, use latest
+    if (typeof this.game === 'undefined') {
+      this.game = GAMES.POKEMON_RED;
     }
 
     // handle the pokedex stuffs
-    let pokedex = new Pokedex(GAMES.POKEMON_RED);
+    let pokedex = new Pokedex(this.game);
     if (typeof this.species === 'number') {
       this.pokemon = pokedex.getPokemonById(this.species);
     }
