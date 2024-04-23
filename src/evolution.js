@@ -45,6 +45,10 @@ export const EVOLUTION = {
   LEVEL_SHEDINJA: 'LEVEL_SHEDINJA',
   // Pokemon reaches the specified level with a remoraid in the party
   LEVEL_MANTINE: 'LEVEL_MANTINE',
+  // Evolves when traded with its counterpart
+  LEVEL_KARRABLAST: 'LEVEL_KARRABLAST',
+  // Evolves when traded with its counterpart
+  LEVEL_SHELMET: 'LEVEL_SHELMET',
   // Pokemon levels up with beauty ≥ specified value
   BEAUTY: 'BEAUTY',
 };

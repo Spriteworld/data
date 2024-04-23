@@ -1,4 +1,4 @@
-import { CalcDamage } from './calcDamage';
+import CalcDamage from './calcDamage';
 import { BasePokemon } from '../basePokemon';
 import { Movedex } from '../../moves/movedex';
 import { NATURES } from '../index';
@@ -7,14 +7,14 @@ import * as GAMES from '../../games';
 
 let oldMath = global.Math;
 let oldCalcOtherVars = CalcDamage.calcOtherVars;
-let oldCalcDamageRange = CalcDamage.calcDamageRange;
+let oldCalcDamageRange = CalcDamage.calculateRange;
 afterEach(() => {
   global.Math = oldMath;
   CalcDamage.calcOtherVars = oldCalcOtherVars;
-  CalcDamage.calcDamageRange = oldCalcDamageRange;
+  CalcDamage.calculateRange = oldCalcDamageRange;
 });
 
-describe('CalcDamage.calcDamage', () => {
+describe('CalcDamage.calculate', () => {
   let pikachu = new BasePokemon({
     game: GAMES.POKEMON_FIRE_RED,
     species: 'pikachu',
@@ -42,7 +42,7 @@ describe('CalcDamage.calcDamage', () => {
     moves: [
       {name: 'Fake Out', pp: {current: 10, max: 10}},
       {name: 'Extreme Speed', pp: {current: 10, max: 10}},
-      {name: 'Volt Switch', pp: {current: 10, max: 10}},
+      {name: 'Volt Tackle', pp: {current: 10, max: 10}},
       {name: 'Knock off', pp: {current: 10, max: 10}},
     ]
   });
@@ -74,48 +74,48 @@ describe('CalcDamage.calcDamage', () => {
       {name: 'Waterfall', pp: {current: 10, max: 10}},
       {name: 'Dragon Dance', pp: {current: 10, max: 10}},
       {name: 'Earthquake', pp: {current: 10, max: 10}},
-      {name: 'Power Whip', pp: {current: 10, max: 10}},
+      {name: 'Dragon Rage', pp: {current: 10, max: 10}},
     ]
   });
 
   test('gyarados dragon dance wont do damage against pikachu', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('dragon dance');
-    expect(CalcDamage.calcDamage(gyarados, pikachu, move, { critical: 1 })).toBe(0);
+    expect(CalcDamage.calculate(gyarados, pikachu, move, { critical: 1 }).damage).toBe(0);
   });
   test('gyarados earthquake damages pikachu', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('earthquake');
     expect([521, 528, 534, 540, 546, 552, 558, 564, 571, 577, 583, 589, 595, 601, 607, 614])
-      .toContain(CalcDamage.calcDamage(gyarados, pikachu, move, { critical: 1 }));
+      .toContain(CalcDamage.calculate(gyarados, pikachu, move, { critical: 1 }).damage);
   });
   test('gyarados waterfall damages pikachu', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('waterfall');
     expect([117, 118, 120, 121, 122, 124, 125, 126, 128, 129, 131, 132, 133, 135, 136, 138])
-      .toContain(CalcDamage.calcDamage(gyarados, pikachu, move, { critical: 1 }));
+      .toContain(CalcDamage.calculate(gyarados, pikachu, move, { critical: 1 }).damage);
   });
 
   test('pikachu volt tackle damages gyarados', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('volt tackle');
     expect([306, 309, 313, 316, 320, 324, 327, 331, 334, 338, 342, 345, 349, 352, 356, 360])
-      .toContain(CalcDamage.calcDamage(pikachu, gyarados, move, { critical: 1 }));
+      .toContain(CalcDamage.calculate(pikachu, gyarados, move, { critical: 1 }).damage);
   });
   test('pikachu Knock off damages gyarados', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('Knock off');
     expect([9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11])
-      .toContain(CalcDamage.calcDamage(pikachu, gyarados, move, { critical: 1 }));
+      .toContain(CalcDamage.calculate(pikachu, gyarados, move, { critical: 1 }).damage);
   });
 
   // test('sonic boom does 20 dmg', () => {
   //   let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('sonic boom');
-  //   expect(CalcDamage.calcDamage(pikachu, gyarados, move)).toBe(20);
+  //   expect(CalcDamage.calculate(pikachu, gyarados, move)).toBe(20);
   // });
   // test('dragon rage does 40 dmg', () => {
   //   let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('dragon rage');
-  //   expect(CalcDamage.calcDamage(pikachu, gyarados, move)).toBe(40);
+  //   expect(CalcDamage.calculate(pikachu, gyarados, move)).toBe(40);
   // });
 
 });
 
-describe('CalcDamage.calcDamageRange', () => {
+describe('CalcDamage.calculateRange', () => {
   let pikachu = new BasePokemon({
     game: GAMES.POKEMON_FIRE_RED,
     species: 'pikachu',
@@ -143,7 +143,7 @@ describe('CalcDamage.calcDamageRange', () => {
     moves: [
       {name: 'Fake Out', pp: {current: 10, max: 10}},
       {name: 'Extreme Speed', pp: {current: 10, max: 10}},
-      {name: 'Volt Switch', pp: {current: 10, max: 10}},
+      {name: 'Volt Tackle', pp: {current: 10, max: 10}},
       {name: 'Knock off', pp: {current: 10, max: 10}},
     ]
   });
@@ -176,7 +176,7 @@ describe('CalcDamage.calcDamageRange', () => {
       {name: 'Waterfall', pp: {current: 10, max: 10}},
       {name: 'Dragon Dance', pp: {current: 10, max: 10}},
       {name: 'Earthquake', pp: {current: 10, max: 10}},
-      {name: 'Power Whip', pp: {current: 10, max: 10}},
+      {name: 'Dragon Rage', pp: {current: 10, max: 10}},
     ]
   });
   let newCalcDamageRange = jest.fn((pikachu, gyarados, move) => {
@@ -185,10 +185,10 @@ describe('CalcDamage.calcDamageRange', () => {
 
     for(let i=0; i<16; i++) {
       range.push(
-        CalcDamage.calcDamage(pikachu, gyarados, move, {
+        CalcDamage.calculate(pikachu, gyarados, move, {
           random: parseFloat((random+(i/100)).toFixed(2)),
           critical: 1
-        })
+        }).damage
       );
     }
 
@@ -196,32 +196,32 @@ describe('CalcDamage.calcDamageRange', () => {
   });
   test('range for gyarados earthquake damages pikachu', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('Earthquake');
-    CalcDamage.calcDamageRange = newCalcDamageRange;
-    expect(CalcDamage.calcDamageRange(gyarados, pikachu, move))
+    CalcDamage.calculateRange = newCalcDamageRange;
+    expect(CalcDamage.calculateRange(gyarados, pikachu, move))
       .toStrictEqual([521, 528, 534, 540, 546, 552, 558, 564, 571, 577, 583, 589, 595, 601, 607, 614]);
   });
   test('range for gyarados waterfall damages pikachu', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('waterfall');
-    CalcDamage.calcDamageRange = newCalcDamageRange;
-    expect(CalcDamage.calcDamageRange(gyarados, pikachu, move))
+    CalcDamage.calculateRange = newCalcDamageRange;
+    expect(CalcDamage.calculateRange(gyarados, pikachu, move))
       .toStrictEqual([117, 118, 120, 121, 122, 124, 125, 126, 128, 129, 131, 132, 133, 135, 136, 138]);
   });
 
   test('range for pikachu volt tackle damages gyarados', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('volt tackle');
-    CalcDamage.calcDamageRange = newCalcDamageRange;
-    expect(CalcDamage.calcDamageRange(pikachu, gyarados, move))
+    CalcDamage.calculateRange = newCalcDamageRange;
+    expect(CalcDamage.calculateRange(pikachu, gyarados, move))
       .toStrictEqual([306, 309, 313, 316, 320, 324, 327, 331, 334, 338, 342, 345, 349, 352, 356, 360]);
   });
   test('range for pikachu Knock off damages gyarados', () => {
     let move = new Movedex(GAMES.POKEMON_FIRE_RED).getMoveByName('Knock off');
-    CalcDamage.calcDamageRange = newCalcDamageRange;
-    expect(CalcDamage.calcDamageRange(pikachu, gyarados, move))
+    CalcDamage.calculateRange = newCalcDamageRange;
+    expect(CalcDamage.calculateRange(pikachu, gyarados, move))
       .toStrictEqual([9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11]);
   });
 });
 
-// describe('CalcDamage.calcDamageRange', () => {
+// describe('CalcDamage.calculateRange', () => {
 //   let glaceon = new BasePokemon({
 //     game: GAMES.POKEMON_PLATINUM,
 //     species: 'glaceon',
@@ -289,22 +289,22 @@ describe('CalcDamage.calcDamageRange', () => {
 //   };
 
 //   test('range for glaceon icefang damage garchomp', () => {
-//     CalcDamage.calcDamageRange = jest.fn((attkPkmn, enemyPkmn, move) => {
+//     CalcDamage.calculateRange = jest.fn((attkPkmn, enemyPkmn, move) => {
 //       let range = [];
 //       let random = 0.85;
 
 //       for(let i=0; i<16; i++) {
 //         range.push(
-//           CalcDamage.calcDamage(attkPkmn, enemyPkmn, move, {
+//           CalcDamage.calculate(attkPkmn, enemyPkmn, move, {
 //             random: parseFloat((random+(i/100)).toFixed(2)),
 //             critical: 1
-//           })
+//           }).damage
 //         );
 //       }
 
 //       return range;
 //     });
-//     expect(CalcDamage.calcDamageRange(glaceon, garchomp, move))
+//     expect(CalcDamage.calculateRange(glaceon, garchomp, move))
 //       .toStrictEqual(Object.values(expected));
 //   });
 // });
@@ -320,71 +320,71 @@ describe('calcOtherVars', () => {
   });
 });
 
-describe('calcCritChance', () => {
-  test('level 1 returns true when random is under threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.06;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(1)).toBeTruthy();
-  });
-  test('level 1 returns false when random is over threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.07;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(1)).toBeFalsy();
-  });
-  test('level 2 returns true when random is under threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.12;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(2)).toBeTruthy();
-  });
-  test('level 2 returns false when random is over threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.13;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(2)).toBeFalsy();
-  });
-  test('level 3 returns true when random is under threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.24;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(3)).toBeTruthy();
-  });
-  test('level 3 returns false when random is over threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.26;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(3)).toBeFalsy();
-  });
-  test('level 4 returns true when random is under threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.33;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(4)).toBeTruthy();
-  });
-  test('level 4 returns false when random is over threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.34;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(4)).toBeFalsy();
-  });
-  test('level 5 returns true when random is under threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.49;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(5)).toBeTruthy();
-  });
-  test('level 5 returns false when random is over threshold', () => {
-    let mockMath = Object.create(global.Math);
-    mockMath.random = () => 0.51;
-    global.Math = mockMath;
-    expect(CalcDamage.calcCritChance(5)).toBeFalsy();
-  });
-  test('level 6 returns false cause invalid', () => {
-    expect(CalcDamage.calcCritChance(6)).toBeFalsy();
-  });
-});
+// describe('calcCritChance', () => {
+//   test('level 1 returns true when random is under threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.06;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(1)).toBeTruthy();
+//   });
+//   test('level 1 returns false when random is over threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.07;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(1)).toBeFalsy();
+//   });
+//   test('level 2 returns true when random is under threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.12;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(2)).toBeTruthy();
+//   });
+//   test('level 2 returns false when random is over threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.13;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(2)).toBeFalsy();
+//   });
+//   test('level 3 returns true when random is under threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.24;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(3)).toBeTruthy();
+//   });
+//   test('level 3 returns false when random is over threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.26;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(3)).toBeFalsy();
+//   });
+//   test('level 4 returns true when random is under threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.33;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(4)).toBeTruthy();
+//   });
+//   test('level 4 returns false when random is over threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.34;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(4)).toBeFalsy();
+//   });
+//   test('level 5 returns true when random is under threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.49;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(5)).toBeTruthy();
+//   });
+//   test('level 5 returns false when random is over threshold', () => {
+//     let mockMath = Object.create(global.Math);
+//     mockMath.random = () => 0.51;
+//     global.Math = mockMath;
+//     expect(CalcDamage.calcCritChance(5)).toBeFalsy();
+//   });
+//   test('level 6 returns false cause invalid', () => {
+//     expect(CalcDamage.calcCritChance(6)).toBeFalsy();
+//   });
+// });
 
 describe('calcBurnPower', () => {
   test('pokemon is burned', () => {

@@ -55,12 +55,6 @@ export class Movedex {
     });
   }
 
-  checkMoveName(type) {
-    if (Object.values(TYPES).includes(type) === false) {
-      throw 'Move Type "' + type + '" is invalid!';
-    }
-  }
-
   checkMoveType(type) {
     if (Object.values(TYPES).includes(type) === false) {
       throw 'Move Type "' + type + '" is invalid!';

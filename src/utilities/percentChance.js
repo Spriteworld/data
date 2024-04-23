@@ -5,6 +5,6 @@
  * @return bool
  */
 export const percentChance = (min, max=1) => {
-  let chance = Math.random() * 100;
+  let chance = Math.random();
   return (chance >= min && chance <= max);
 }

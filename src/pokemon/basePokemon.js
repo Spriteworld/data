@@ -70,7 +70,7 @@ export class BasePokemon {
 
     // load the moves
     if (typeof this.moves !== 'undefined' || this.moves?.length > 0) {
-      let movedex = new Movedex(8);
+      let movedex = new Movedex(this.game);
       this.moves = movedex.getMovesForPokemon(this.moves);
     } else {
       this.moves = [];
