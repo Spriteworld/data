@@ -1,10 +1,14 @@
 /**
- * Returns true if between the 2 arguments
- * @param float min
- * @param float max
- * @return bool
+ * Returns true with a given percentage chance
+ * @param int percent - The percentage chance (0-100)
+ * @returns {boolean} - True if the chance is successful, false otherwise
  */
-export const percentChance = (min, max=1) => {
-  let chance = Math.random();
-  return (chance >= min && chance <= max);
-}
+export const percentChance = (percent) => {
+  let random = Math.random();
+  if (percent > 1) {
+    percent = percent / 100;
+  }
+
+  let value = random < percent;
+  return value;
+};

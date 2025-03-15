@@ -1,5 +1,5 @@
 import { COLORS } from './colors';
-import { EVOLUTION } from './evolution';
+import { EVOLUTION_METHOD } from './evolution';
 import { FORMS } from './forms';
 import * as GAMES from './games';
 import { GENDERS } from './genders';
@@ -15,10 +15,11 @@ import {
   calcLevel, calcStat
 } from './pokemon';
 import * as Utilities from './utilities';
+import * as Pokedex from './pokedex';
 
 export {
   COLORS,
-  EVOLUTION,
+  EVOLUTION_METHOD,
   FORMS,
   GAMES,
   GENDERS,
@@ -34,5 +35,6 @@ export {
   CalcDamage,
   calcLevel,
   calcStat,
-  Utilities
+  Utilities,
+  Pokedex
 };

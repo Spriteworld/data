@@ -320,71 +320,71 @@ describe('calcOtherVars', () => {
   });
 });
 
-// describe('calcCritChance', () => {
-//   test('level 1 returns true when random is under threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.06;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(1)).toBeTruthy();
-//   });
-//   test('level 1 returns false when random is over threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.07;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(1)).toBeFalsy();
-//   });
-//   test('level 2 returns true when random is under threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.12;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(2)).toBeTruthy();
-//   });
-//   test('level 2 returns false when random is over threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.13;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(2)).toBeFalsy();
-//   });
-//   test('level 3 returns true when random is under threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.24;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(3)).toBeTruthy();
-//   });
-//   test('level 3 returns false when random is over threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.26;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(3)).toBeFalsy();
-//   });
-//   test('level 4 returns true when random is under threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.33;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(4)).toBeTruthy();
-//   });
-//   test('level 4 returns false when random is over threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.34;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(4)).toBeFalsy();
-//   });
-//   test('level 5 returns true when random is under threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.49;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(5)).toBeTruthy();
-//   });
-//   test('level 5 returns false when random is over threshold', () => {
-//     let mockMath = Object.create(global.Math);
-//     mockMath.random = () => 0.51;
-//     global.Math = mockMath;
-//     expect(CalcDamage.calcCritChance(5)).toBeFalsy();
-//   });
-//   test('level 6 returns false cause invalid', () => {
-//     expect(CalcDamage.calcCritChance(6)).toBeFalsy();
-//   });
-// });
+describe('calcCritChance', () => {
+  test('level 1 returns true when random is under threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.06;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(1)).toBeTruthy();
+  });
+  test('level 1 returns false when random is over threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.07;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(1)).toBeFalsy();
+  });
+  test('level 2 returns true when random is under threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.12;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(2)).toBeTruthy();
+  });
+  test('level 2 returns false when random is over threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.13;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(2)).toBeFalsy();
+  });
+  test('level 3 returns true when random is under threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.24;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(3)).toBeTruthy();
+  });
+  test('level 3 returns false when random is over threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.26;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(3)).toBeFalsy();
+  });
+  test('level 4 returns true when random is under threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.33;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(4)).toBeTruthy();
+  });
+  test('level 4 returns false when random is over threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.34;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(4)).toBeFalsy();
+  });
+  test('level 5 returns true when random is under threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.49;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(5)).toBeTruthy();
+  });
+  test('level 5 returns false when random is over threshold', () => {
+    let mockMath = Object.create(global.Math);
+    mockMath.random = () => 0.51;
+    global.Math = mockMath;
+    expect(CalcDamage.calcCritChance(5)).toBeFalsy();
+  });
+  test('level 6 returns false cause invalid', () => {
+    expect(CalcDamage.calcCritChance(6)).toBeFalsy();
+  });
+});
 
 describe('calcBurnPower', () => {
   test('pokemon is burned', () => {

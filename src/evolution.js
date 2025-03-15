@@ -1,4 +1,4 @@
-export const EVOLUTION = {
+export const EVOLUTION_METHOD = {
   // levels up with friendship ≥ 220
   FRIENDSHIP: 'FRIENDSHIP',
   // levels up during the day with friendship ≥ 220
@@ -52,3 +52,11 @@ export const EVOLUTION = {
   // Pokemon levels up with beauty ≥ specified value
   BEAUTY: 'BEAUTY',
 };
+
+export class Evolution {
+  constructor(method, value, target) {
+    this.method = method;
+    this.value = value;
+    this.target = target;
+  }
+}

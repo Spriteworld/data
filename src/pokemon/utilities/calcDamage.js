@@ -107,11 +107,11 @@ export default class CalcDamage {
    */
   static calcCritChance(critLevel=1) {
     switch(critLevel) {
-      case 1: return percentChance(0, 6.25); break;
-      case 2: return percentChance(0, 12.5); break;
-      case 3: return percentChance(0, 25.0); break;
-      case 4: return percentChance(0, 33.3); break;
-      case 5: return percentChance(0, 50.0); break;
+      case 1: return percentChance(6.25); break;
+      case 2: return percentChance(12.5); break;
+      case 3: return percentChance(25.0); break;
+      case 4: return percentChance(33.3); break;
+      case 5: return percentChance(50.0); break;
     }
     return false;
   }
